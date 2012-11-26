@@ -1,0 +1,33 @@
+SetEnv PHP_VER 5
+SetEnv REGISTER_GLOBALS 0
+#php_value memory_limit 4096M
+#php_value max_execution_time 10000
+#php_flag magic_quotes_gpc Off
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^$   index.php?controller=accueil [L]
+RewriteRule ^([a-z]+)(/*)$   index.php?controller=$1 [L]
+RewriteRule ^([a-z]+)/([a-z]+)(/*)$   index.php?controller=$1&action=$2 [L]
+RewriteRule ^([a-z]+)/([0-9]+)(/*)$   index.php?controller=$1&id=$2 [L]
+RewriteRule ^([a-z]+)/([a-z]+)/([0-9]+)(/*)$   index.php?controller=$1&action=$2&id=$3 [L]
+
+RewriteRule ^admin/traduction/([a-zA-Z_]+)(/*)$   index.php?controller=admin&action=traduction&lang=$1 [L]
+
+RewriteRule ^geolocalisation/([a-z]+)/([0-9]+)/([0-9]+)(/*)$   index.php?controller=geolocalisation&action=$1&id=$2&geoloc=$3 [L]
+
+RewriteRule ^commande/chemin/([a-z]+)-([0-9]+)(/*)$   index.php?controller=commande&action=chemin&type=$1&id=$2 [L]
+RewriteRule ^commande/chemin/([a-z]+)-([0-9]+)/([0-9]*)(/*)$   index.php?controller=commande&action=chemin&type=$1&id=$2&idetage=$3 [L]
+
+RewriteRule ^demo/chemin/([a-z]+)-([0-9]+)(/*)$   index.php?controller=demo&action=chemin&type=$1&id=$2 [L]
+RewriteRule ^demo/chemin/([a-z]+)-([0-9]+)/([0-9]*)(/*)$   index.php?controller=demo&action=chemin&type=$1&id=$2&idetage=$3 [L]
+
+
+
+RewriteRule ^([a-z]+)/([0-9]+)-([0-9]+)-([0-9]+)$(/*)$      index.php?controller=$1&jour=$2&mois=$3&annee=$4 [L]
+RewriteRule ^([a-z]+)/([a-z]+)/([0-9]+)/([0-9]+)/([0-9]+)(/*)$       index.php?controller=$1&action=$2&rayon=$3&segment=$4&etagere=$5 [L]
+ErrorDocument 404 /ProxiPicking/www/error.php?type=http404&message=La%20page%20demand%E9e%20n'existe%20pas%20ou%20plus&code=404&url=/ProxiPicking/www/
+
+<FilesMatch "\.(htm|html|css|js)$">
+AddDefaultCharset UTF-8
+</FilesMatch>

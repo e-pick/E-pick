@@ -1,0 +1,3628 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Proxi-Picking\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-26 15:24+0100\n"
+"PO-Revision-Date: 2011-08-26 15:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: Proxi-Business\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: C:\\wamp\\www\\ProxiPicking\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: application/config/bootstrap.php:146
+msgid "En attente d'affectation"
+msgstr ""
+
+#: application/config/bootstrap.php:146
+#: application/config/bootstrap.php:147
+msgid "En attente de pr&eacute;paration"
+msgstr ""
+
+#: application/config/bootstrap.php:146
+#: application/config/bootstrap.php:147
+msgid "En cours de pr&eacute;paration"
+msgstr ""
+
+#: application/config/bootstrap.php:146
+#: application/config/bootstrap.php:147
+msgid "Termin&eacute;e"
+msgstr ""
+
+#: application/config/bootstrap.php:146
+msgid "Annul&eacute;e"
+msgstr ""
+
+#: application/config/bootstrap.php:161
+msgid "Accueil"
+msgstr ""
+
+#: application/config/bootstrap.php:162
+msgid "Les commandes"
+msgstr ""
+
+#: application/config/bootstrap.php:163
+msgid "Les produits"
+msgstr ""
+
+#: application/config/bootstrap.php:164
+msgid "Utilisateurs"
+msgstr ""
+
+#: application/config/bootstrap.php:165
+#: application/config/bootstrap.php:210
+msgid "Le planning"
+msgstr ""
+
+#: application/config/bootstrap.php:166
+msgid "Gerer les utilisateurs"
+msgstr ""
+
+#: application/config/bootstrap.php:167
+msgid "Administration"
+msgstr ""
+
+#: application/config/bootstrap.php:168
+msgid "La mod&eacute;lisation"
+msgstr ""
+
+#: application/config/bootstrap.php:169
+msgid "Mod&eacute;liser le magasin"
+msgstr ""
+
+#: application/config/bootstrap.php:170
+msgid "Les statistiques"
+msgstr ""
+
+#: application/config/bootstrap.php:171
+msgid "G&eacute;rer les messages"
+msgstr ""
+
+#: application/config/bootstrap.php:172
+#: application/controllers/PlanningController.php:502
+msgid "Configuration du planning"
+msgstr ""
+
+#: application/config/bootstrap.php:173
+msgid "Configuration de l'affectation"
+msgstr ""
+
+#: application/config/bootstrap.php:174
+msgid "Simulation de parcours"
+msgstr ""
+
+#: application/config/bootstrap.php:175
+msgid "Vider la geolocalisation"
+msgstr ""
+
+#: application/config/bootstrap.php:176
+msgid "Vider la base produit/commande"
+msgstr ""
+
+#: application/config/bootstrap.php:179
+msgid "Organisation"
+msgstr ""
+
+#: application/config/bootstrap.php:180
+#: application/controllers/EtageController.php:34
+#: application/controllers/GeolocalisationController.php:311
+#: application/controllers/GeolocalisationController.php:561
+#: application/controllers/GeolocalisationController.php:770
+#: application/controllers/ProduitController.php:46
+#: application/controllers/ProduitController.php:782
+#: application/controllers/ProduitController.php:1144
+#: application/controllers/ProduitController.php:1314
+#: application/controllers/RayonController.php:49
+#: application/controllers/RayonController.php:373
+#: application/controllers/RayonController.php:447
+#: application/controllers/RayonController.php:530
+#: application/controllers/ZoneController.php:35
+#: application/controllers/ZoneController.php:99
+#: application/controllers/ZoneController.php:261
+msgid "Etage"
+msgstr ""
+
+#: application/config/bootstrap.php:181
+#: application/controllers/AffectationController.php:916
+#: application/controllers/GeolocalisationController.php:562
+#: application/controllers/GeolocalisationController.php:771
+#: application/controllers/ProduitController.php:47
+#: application/controllers/ProduitController.php:783
+#: application/controllers/ProduitController.php:1145
+#: application/controllers/ProduitController.php:1315
+#: application/controllers/RayonController.php:50
+#: application/controllers/ZoneController.php:36
+#: application/controllers/ZoneController.php:262
+msgid "Zone"
+msgstr ""
+
+#: application/config/bootstrap.php:182
+#: application/controllers/CommandeController.php:383
+#: application/controllers/GeolocalisationController.php:313
+#: application/controllers/GeolocalisationController.php:563
+#: application/controllers/GeolocalisationController.php:772
+#: application/controllers/ModelisationController.php:683
+#: application/controllers/ModelisationController.php:802
+#: application/controllers/ProduitController.php:48
+#: application/controllers/ProduitController.php:784
+#: application/controllers/ProduitController.php:1146
+#: application/controllers/ProduitController.php:1316
+#: application/controllers/RayonController.php:182
+#: application/kernel/Common.php:1183
+msgid "Rayon"
+msgstr ""
+
+#: application/config/bootstrap.php:183
+msgid "Importer/Exporter des rayons"
+msgstr ""
+
+#: application/config/bootstrap.php:184
+msgid "Gestion des priorit&eacute;s de picking"
+msgstr ""
+
+#: application/config/bootstrap.php:185
+msgid "Affectation rayons"
+msgstr ""
+
+#: application/config/bootstrap.php:186
+msgid "Int&eacute;grit&eacute;"
+msgstr ""
+
+#: application/config/bootstrap.php:187
+msgid "Non g&eacute;olocalis&eacute;s"
+msgstr ""
+
+#: application/config/bootstrap.php:188
+msgid "Produits inconnus"
+msgstr ""
+
+#: application/config/bootstrap.php:189
+msgid "Codes ean"
+msgstr ""
+
+#: application/config/bootstrap.php:190
+msgid "Flux Produits"
+msgstr ""
+
+#: application/config/bootstrap.php:191
+msgid "Charger les produits"
+msgstr ""
+
+#: application/config/bootstrap.php:192
+msgid "Envoyer produits vers PDA pour g&eacute;oloc."
+msgstr ""
+
+#: application/config/bootstrap.php:193
+msgid "R&eacute;cup&eacute;ration de la g&eacute;olocalisation"
+msgstr ""
+
+#: application/config/bootstrap.php:194
+msgid "Importer les produits"
+msgstr ""
+
+#: application/config/bootstrap.php:195
+msgid "Importer la g&eacute;olocalisation"
+msgstr ""
+
+#: application/config/bootstrap.php:196
+msgid "Exporter la g&eacute;olocalisation"
+msgstr ""
+
+#: application/config/bootstrap.php:201
+msgid "Gestion commandes"
+msgstr ""
+
+#: application/config/bootstrap.php:202
+msgid "Gestion pr&eacute;parations"
+msgstr ""
+
+#: application/config/bootstrap.php:203
+msgid "Charger les commandes"
+msgstr ""
+
+#: application/config/bootstrap.php:204
+msgid "Mes pr&eacute;parations"
+msgstr ""
+
+#: application/config/bootstrap.php:205
+msgid "Liste des pr&eacute;parations"
+msgstr ""
+
+#: application/config/bootstrap.php:206
+msgid "Affectation des commandes"
+msgstr ""
+
+#: application/config/bootstrap.php:207
+msgid "Gestion client&egrave;le"
+msgstr ""
+
+#: application/config/bootstrap.php:208
+msgid "Clients"
+msgstr ""
+
+#: application/config/bootstrap.php:209
+msgid "G&eacute;rer le planning"
+msgstr ""
+
+#: application/config/bootstrap.php:211
+msgid "Importer les commandes"
+msgstr ""
+
+#: application/config/bootstrap.php:213
+msgid "Se d&eacute;connecter"
+msgstr ""
+
+#: application/controllers/AccueilController.php:82
+msgid "Tableau de bord"
+msgstr ""
+
+#: application/controllers/AccueilController.php:83
+#: application/controllers/AdminController.php:134
+#: application/controllers/EtageController.php:127
+#: application/controllers/UtilisateurController.php:159
+#: application/controllers/ZoneController.php:180
+msgid "Editer"
+msgstr ""
+
+#: application/controllers/AccueilController.php:84
+msgid "Acc&eacute;der au planning"
+msgstr ""
+
+#: application/controllers/AccueilController.php:85
+msgid "Statistiques"
+msgstr ""
+
+#: application/controllers/AccueilController.php:86
+msgid "Ressources humaines disponibles"
+msgstr ""
+
+#: application/controllers/AccueilController.php:87
+msgid "Commandes &agrave; affecter"
+msgstr ""
+
+#: application/controllers/AccueilController.php:88
+#: application/controllers/CommandeController.php:121
+msgid "N&deg; commande (nb ref)"
+msgstr ""
+
+#: application/controllers/AccueilController.php:89
+#: application/controllers/AffectationController.php:896
+#: application/controllers/AffectationController.php:1650
+#: application/controllers/AffectationController.php:2130
+#: application/controllers/CommandeController.php:122
+#: application/controllers/CommandeController.php:186
+msgid "Client (Soci&eacute;t&eacute;)"
+msgstr ""
+
+#: application/controllers/AccueilController.php:90
+#: application/controllers/AffectationController.php:2306
+#: application/controllers/CommandeController.php:123
+msgid "Etat"
+msgstr ""
+
+#: application/controllers/AccueilController.php:91
+#: application/controllers/AffectationController.php:897
+#: application/controllers/AffectationController.php:1651
+#: application/controllers/CommandeController.php:124
+#: application/controllers/CommandeController.php:184
+msgid "Date de commande"
+msgstr ""
+
+#: application/controllers/AccueilController.php:92
+#: application/controllers/AffectationController.php:898
+#: application/controllers/AffectationController.php:904
+#: application/controllers/AffectationController.php:1652
+#: application/controllers/AffectationController.php:1656
+#: application/controllers/CommandeController.php:125
+#: application/controllers/CommandeController.php:185
+msgid "Date de livraison"
+msgstr ""
+
+#: application/controllers/AccueilController.php:93
+#: application/controllers/AffectationController.php:900
+#: application/controllers/AffectationController.php:1683
+#: application/controllers/CommandeController.php:126
+#: application/controllers/CommandeController.php:197
+msgid "D&eacute;tails"
+msgstr ""
+
+#: application/controllers/AccueilController.php:94
+#: application/controllers/AffectationController.php:908
+#: application/controllers/CommandeController.php:127
+msgid "Commande(s) en attente d'affectation"
+msgstr ""
+
+#: application/controllers/AccueilController.php:95
+#: application/controllers/CommandeController.php:128
+msgid "Aucune commande trouv&eacute;e"
+msgstr ""
+
+#: application/controllers/AccueilController.php:96
+msgid "Acc&eacute;der &agrave; la liste des commandes"
+msgstr ""
+
+#: application/controllers/AccueilController.php:97
+msgid "Acc&eacute;der &agrave; l'interface d'affectation des commandes"
+msgstr ""
+
+#: application/controllers/AccueilController.php:98
+msgid "Attention, aucun pr&eacute;parateur n'est encore disponible pour la prochaine journ&eacute;e."
+msgstr ""
+
+#: application/controllers/AccueilController.php:99
+#: application/controllers/AffectationController.php:936
+#: application/controllers/AffectationController.php:937
+msgid "commande"
+msgstr ""
+
+#: application/controllers/AccueilController.php:100
+msgid "commandes"
+msgstr ""
+
+#: application/controllers/AccueilController.php:101
+#: application/controllers/RayonController.php:192
+msgid "est"
+msgstr ""
+
+#: application/controllers/AccueilController.php:102
+#: application/controllers/RayonController.php:191
+msgid "sont"
+msgstr ""
+
+#: application/controllers/AccueilController.php:103
+msgid "en attente d'affectation."
+msgstr ""
+
+#: application/controllers/AccueilController.php:116
+msgid "Vous devez &ecirc;tre connect&eacute; pour acc&eacute;der &agrave; votre demande"
+msgstr ""
+
+#: application/controllers/AdminController.php:74
+#: application/controllers/AdminController.php:81
+#: application/controllers/ProduitController.php:43
+#: application/controllers/ProduitController.php:779
+#: application/controllers/ProduitController.php:1074
+#: application/controllers/ProduitController.php:1141
+#: application/controllers/ProduitController.php:1311
+msgid "Code produit"
+msgstr ""
+
+#: application/controllers/AdminController.php:75
+#: application/controllers/EtageController.php:72
+#: application/controllers/EtageController.php:126
+#: application/controllers/GeolocalisationController.php:326
+#: application/controllers/ProduitController.php:261
+#: application/controllers/ProduitController.php:303
+#: application/controllers/ProduitController.php:589
+#: application/controllers/RayonController.php:146
+#: application/controllers/RayonController.php:286
+#: application/controllers/ZoneController.php:100
+#: application/controllers/ZoneController.php:172
+msgid "Libelle"
+msgstr ""
+
+#: application/controllers/AdminController.php:76
+msgid "Temps moyen d'acc&egrave;s"
+msgstr ""
+
+#: application/controllers/AdminController.php:77
+#: application/controllers/AffectationController.php:2298
+#: application/controllers/AffectationController.php:2317
+#: application/controllers/CommandeController.php:196
+msgid "Aucun produit trouv&eacute;"
+msgstr ""
+
+#: application/controllers/AdminController.php:78
+#: application/controllers/AffectationController.php:461
+#: application/controllers/AffectationController.php:913
+#: application/controllers/AffectationController.php:2132
+#: application/controllers/ClientController.php:103
+#: application/controllers/CommandeController.php:133
+#: application/controllers/EtageController.php:33
+#: application/controllers/ProduitController.php:54
+#: application/controllers/ProduitController.php:795
+#: application/controllers/ProduitController.php:1078
+#: application/controllers/ProduitController.php:1140
+#: application/controllers/ProduitController.php:1309
+#: application/controllers/RayonController.php:58
+#: application/controllers/ZoneController.php:39
+#: application/controllers/ZoneController.php:263
+msgid "Effacer"
+msgstr ""
+
+#: application/controllers/AdminController.php:79
+#: application/controllers/AffectationController.php:460
+#: application/controllers/AffectationController.php:911
+#: application/controllers/AffectationController.php:2128
+#: application/controllers/ClientController.php:102
+#: application/controllers/CommandeController.php:130
+#: application/controllers/EtageController.php:30
+#: application/controllers/ProduitController.php:41
+#: application/controllers/ProduitController.php:777
+#: application/controllers/ProduitController.php:1072
+#: application/controllers/ProduitController.php:1137
+#: application/controllers/ProduitController.php:1307
+#: application/controllers/RayonController.php:53
+#: application/controllers/ZoneController.php:32
+#: application/controllers/ZoneController.php:258
+msgid "Filtre"
+msgstr ""
+
+#: application/controllers/AdminController.php:80
+#: application/controllers/AffectationController.php:459
+#: application/controllers/AffectationController.php:910
+#: application/controllers/AffectationController.php:2127
+#: application/controllers/ClientController.php:101
+#: application/controllers/CommandeController.php:129
+#: application/controllers/EtageController.php:31
+#: application/controllers/ProduitController.php:42
+#: application/controllers/ProduitController.php:778
+#: application/controllers/ProduitController.php:1073
+#: application/controllers/ProduitController.php:1138
+#: application/controllers/ProduitController.php:1308
+#: application/controllers/RayonController.php:54
+#: application/controllers/ZoneController.php:33
+#: application/controllers/ZoneController.php:259
+msgid "Filtrer"
+msgstr ""
+
+#: application/controllers/AdminController.php:82
+#: application/controllers/ProduitController.php:45
+#: application/controllers/ProduitController.php:781
+#: application/controllers/ProduitController.php:1076
+#: application/controllers/ProduitController.php:1143
+#: application/controllers/ProduitController.php:1313
+msgid "Libell&eacute; du produit"
+msgstr ""
+
+#: application/controllers/AdminController.php:85
+#: application/controllers/AffectationController.php:452
+#: application/controllers/AffectationController.php:645
+#: application/controllers/AffectationController.php:2198
+#: application/controllers/ClientController.php:89
+#: application/controllers/CommandeController.php:111
+#: application/controllers/ProduitController.php:207
+#: application/controllers/ProduitController.php:1058
+#: application/controllers/ProduitController.php:1126
+#: application/controllers/ProduitController.php:1295
+#: application/controllers/ProduitController.php:1447
+#: application/controllers/RayonController.php:126
+#: application/controllers/ZoneController.php:384
+msgid "r&eacute;sultats sur"
+msgstr ""
+
+#: application/controllers/AdminController.php:86
+#: application/controllers/AffectationController.php:453
+#: application/controllers/AffectationController.php:646
+#: application/controllers/AffectationController.php:2199
+#: application/controllers/ClientController.php:90
+#: application/controllers/CommandeController.php:112
+#: application/controllers/ProduitController.php:208
+#: application/controllers/ProduitController.php:1059
+#: application/controllers/ProduitController.php:1127
+#: application/controllers/ProduitController.php:1296
+#: application/controllers/ProduitController.php:1448
+#: application/controllers/RayonController.php:127
+#: application/controllers/ZoneController.php:385
+msgid "pages"
+msgstr ""
+
+#: application/controllers/AdminController.php:89
+#: application/controllers/AffectationController.php:2133
+#: application/controllers/AffectationController.php:2181
+#: application/controllers/ClientController.php:104
+#: application/controllers/ProduitController.php:211
+#: application/controllers/ProduitController.php:1064
+#: application/controllers/ProduitController.php:1081
+#: application/controllers/ProduitController.php:1151
+#: application/controllers/ProduitController.php:1321
+#: application/controllers/RayonController.php:133
+msgid "Page"
+msgstr ""
+
+#: application/controllers/AdminController.php:101
+msgid "La base a &eacute;t&eacute; bien vid&eacute;e"
+msgstr ""
+
+#: application/controllers/AdminController.php:102
+#: application/controllers/GeolocalisationController.php:553
+msgid "Retour &agrave; l'accueil"
+msgstr ""
+
+#: application/controllers/AdminController.php:104
+msgid "Vidage de la base produit/commande par "
+msgstr ""
+
+#: application/controllers/AdminController.php:132
+msgid "Langue"
+msgstr ""
+
+#: application/controllers/AdminController.php:133
+msgid "Choisir la langue &agrave; &eacute;diter"
+msgstr ""
+
+#: application/controllers/AdminController.php:135
+#: application/controllers/PlanningController.php:202
+msgid "Ajouter"
+msgstr ""
+
+#: application/controllers/AdminController.php:136
+msgid "Ajouter une langue"
+msgstr ""
+
+#: application/controllers/AdminController.php:145
+#: application/controllers/AffectationController.php:2340
+#: application/controllers/AffectationController.php:2556
+#: application/controllers/AffectationController.php:2583
+#: application/controllers/ClientController.php:115
+#: application/controllers/CommandeController.php:157
+#: application/controllers/CommandeController.php:218
+#: application/controllers/CommandeController.php:264
+#: application/controllers/EtageController.php:116
+#: application/controllers/EtageController.php:171
+#: application/controllers/GeolocalisationController.php:575
+#: application/controllers/GeolocalisationController.php:780
+#: application/controllers/ModelisationController.php:841
+#: application/controllers/PlanningController.php:122
+#: application/controllers/PlanningController.php:226
+#: application/controllers/PlanningController.php:287
+#: application/controllers/PlanningController.php:334
+#: application/controllers/PlanningController.php:395
+#: application/controllers/PlanningController.php:436
+#: application/controllers/ProduitController.php:251
+#: application/controllers/ProduitController.php:542
+#: application/controllers/RayonController.php:304
+#: application/controllers/RayonController.php:580
+#: application/controllers/UtilisateurController.php:617
+#: application/controllers/ZoneController.php:164
+#: application/controllers/ZoneController.php:413
+msgid "Un param&egrave;tre est manquant pour effectuer l'action demand&eacute;e"
+msgstr ""
+
+#: application/controllers/AdminController.php:268
+msgid "Messages &agrave; traduire"
+msgstr ""
+
+#: application/controllers/AdminController.php:269
+msgid "Traduction"
+msgstr ""
+
+#: application/controllers/AdminController.php:270
+msgid "R&eacute;f&eacute;rences"
+msgstr ""
+
+#: application/controllers/AdminController.php:271
+#: application/controllers/AffectationController.php:2656
+#: application/controllers/GeolocalisationController.php:565
+#: application/controllers/GeolocalisationController.php:774
+#: application/controllers/PlanningController.php:503
+#: application/controllers/ProduitController.php:318
+#: application/controllers/ProduitController.php:603
+#: application/controllers/UtilisateurController.php:197
+#: application/controllers/UtilisateurController.php:378
+msgid "Enregistrer"
+msgstr ""
+
+#: application/controllers/AffectationController.php:64
+#: application/controllers/AffectationController.php:174
+#: application/controllers/AffectationController.php:1702
+#: application/controllers/AffectationController.php:1705
+#: application/controllers/AffectationController.php:1710
+#: application/controllers/AffectationController.php:1722
+#: application/controllers/AffectationController.php:1783
+#: application/controllers/AffectationController.php:1892
+#: application/controllers/AffectationController.php:2344
+#: application/controllers/AffectationController.php:2392
+#: application/controllers/AffectationController.php:2408
+#: application/controllers/AffectationController.php:2422
+#: application/controllers/AffectationController.php:2477
+#: application/controllers/AffectationController.php:2560
+#: application/controllers/AffectationController.php:2587
+#: application/controllers/ClientController.php:118
+#: application/controllers/CommandeController.php:99
+#: application/controllers/CommandeController.php:161
+#: application/controllers/CommandeController.php:164
+#: application/controllers/CommandeController.php:170
+#: application/controllers/CommandeController.php:280
+#: application/controllers/EtageController.php:121
+#: application/controllers/EtageController.php:177
+#: application/controllers/GeolocalisationController.php:646
+#: application/controllers/GeolocalisationController.php:655
+#: application/controllers/GeolocalisationController.php:664
+#: application/controllers/GeolocalisationController.php:855
+#: application/controllers/GeolocalisationController.php:864
+#: application/controllers/GeolocalisationController.php:873
+#: application/controllers/GeolocalisationController.php:897
+#: application/controllers/ModelisationController.php:74
+#: application/controllers/ModelisationController.php:719
+#: application/controllers/ProduitController.php:106
+#: application/controllers/ProduitController.php:112
+#: application/controllers/ProduitController.php:118
+#: application/controllers/ProduitController.php:124
+#: application/controllers/ProduitController.php:130
+#: application/controllers/ProduitController.php:256
+#: application/controllers/ProduitController.php:335
+#: application/controllers/ProduitController.php:410
+#: application/controllers/ProduitController.php:546
+#: application/controllers/ProduitController.php:879
+#: application/controllers/ProduitController.php:885
+#: application/controllers/ProduitController.php:891
+#: application/controllers/ProduitController.php:897
+#: application/controllers/ProduitController.php:903
+#: application/controllers/ProduitController.php:1038
+#: application/controllers/ProduitController.php:1197
+#: application/controllers/ProduitController.php:1203
+#: application/controllers/ProduitController.php:1209
+#: application/controllers/ProduitController.php:1215
+#: application/controllers/ProduitController.php:1221
+#: application/controllers/ProduitController.php:1366
+#: application/controllers/ProduitController.php:1372
+#: application/controllers/ProduitController.php:1378
+#: application/controllers/ProduitController.php:1384
+#: application/controllers/ProduitController.php:1390
+#: application/controllers/ProduitController.php:1461
+#: application/controllers/RayonController.php:78
+#: application/controllers/RayonController.php:83
+#: application/controllers/RayonController.php:210
+#: application/controllers/RayonController.php:229
+#: application/controllers/RayonController.php:240
+#: application/controllers/RayonController.php:309
+#: application/controllers/RayonController.php:576
+#: application/controllers/ZoneController.php:58
+#: application/controllers/ZoneController.php:169
+#: application/controllers/ZoneController.php:218
+#: application/controllers/ZoneController.php:288
+#: application/controllers/ZoneController.php:294
+#: application/controllers/ZoneController.php:363
+#: application/controllers/ZoneController.php:372
+#: application/controllers/ZoneController.php:409
+msgid "Param&egrave;tre invalide"
+msgstr ""
+
+#: application/controllers/AffectationController.php:281
+#: application/controllers/AffectationController.php:1998
+#: application/controllers/AffectationController.php:2106
+msgid "Les fichiers sont &agrave; disposition pour &ecirc;tre t&eacute;l&eacute;charg&eacute;s sur le PDA"
+msgstr ""
+
+#: application/controllers/AffectationController.php:282
+#: application/controllers/AffectationController.php:1999
+#: application/controllers/AffectationController.php:2107
+msgid "Export des pr&eacute;parations "
+msgstr ""
+
+#: application/controllers/AffectationController.php:282
+#: application/controllers/AffectationController.php:286
+#: application/controllers/AffectationController.php:1999
+#: application/controllers/AffectationController.php:2003
+msgid " sur le PDA"
+msgstr ""
+
+#: application/controllers/AffectationController.php:282
+#: application/controllers/AffectationController.php:286
+#: application/controllers/AffectationController.php:390
+#: application/controllers/AffectationController.php:394
+#: application/controllers/AffectationController.php:1753
+#: application/controllers/AffectationController.php:1999
+#: application/controllers/AffectationController.php:2003
+#: application/controllers/AffectationController.php:2107
+#: application/controllers/AffectationController.php:2111
+#: application/controllers/AffectationController.php:2564
+#: application/controllers/AffectationController.php:2621
+#: application/controllers/EtageController.php:148
+#: application/controllers/EtageController.php:181
+#: application/controllers/GeolocalisationController.php:698
+#: application/controllers/GeolocalisationController.php:900
+#: application/controllers/GeolocalisationController.php:942
+#: application/controllers/ModelisationController.php:834
+#: application/controllers/PlanningController.php:259
+#: application/controllers/PlanningController.php:304
+#: application/controllers/PlanningController.php:369
+#: application/controllers/PlanningController.php:416
+#: application/controllers/ProduitController.php:489
+#: application/controllers/ProduitController.php:725
+#: application/controllers/ProduitController.php:966
+#: application/controllers/ProduitController.php:973
+#: application/controllers/ProduitController.php:985
+#: application/controllers/ProduitController.php:996
+#: application/controllers/ProduitController.php:1007
+#: application/controllers/ProduitController.php:1018
+#: application/controllers/ProduitController.php:1046
+#: application/controllers/ProduitController.php:1471
+#: application/controllers/RayonController.php:343
+#: application/controllers/RayonController.php:418
+#: application/controllers/RayonController.php:583
+#: application/controllers/UtilisateurController.php:320
+#: application/controllers/UtilisateurController.php:510
+#: application/controllers/UtilisateurController.php:594
+#: application/controllers/ZoneController.php:137
+#: application/controllers/ZoneController.php:224
+#: application/controllers/ZoneController.php:374
+#: application/controllers/ZoneController.php:416
+msgid " par "
+msgstr ""
+
+#: application/controllers/AffectationController.php:285
+#: application/controllers/AffectationController.php:2002
+#: application/controllers/AffectationController.php:2110
+msgid "Le fichier est &agrave; disposition pour &ecirc;tre t&eacute;l&eacute;charg&eacute; sur le PDA"
+msgstr ""
+
+#: application/controllers/AffectationController.php:286
+#: application/controllers/AffectationController.php:390
+#: application/controllers/AffectationController.php:394
+#: application/controllers/AffectationController.php:2003
+#: application/controllers/AffectationController.php:2111
+msgid "Export de la pr&eacute;paration "
+msgstr ""
+
+#: application/controllers/AffectationController.php:294
+#: application/controllers/AffectationController.php:400
+#: application/controllers/AffectationController.php:2011
+#: application/controllers/AffectationController.php:2119
+#: application/controllers/AffectationController.php:2544
+msgid "Des produits ont chang&eacute; de localisation entrainant une pr&eacute;paration sur plusieurs &eacute;tages. "
+msgstr ""
+
+#: application/controllers/AffectationController.php:295
+#: application/controllers/AffectationController.php:401
+#: application/controllers/AffectationController.php:2012
+#: application/controllers/AffectationController.php:2120
+#: application/controllers/AffectationController.php:2545
+msgid "La pr&eacute;paration doit &ecirc;tre annul&eacute;e et r&eacute;affect&eacute;e."
+msgstr ""
+
+#: application/controllers/AffectationController.php:389
+msgid "Les fichiers PDF sont &agrave; disposition pour &ecirc;tre t&eacute;l&eacute;charg&eacute;s"
+msgstr ""
+
+#: application/controllers/AffectationController.php:390
+#: application/controllers/AffectationController.php:394
+#: application/controllers/AffectationController.php:2107
+#: application/controllers/AffectationController.php:2111
+msgid " en PDF"
+msgstr ""
+
+#: application/controllers/AffectationController.php:393
+msgid "Le fichier PDF est &agrave; disposition pour &ecirc;tre t&eacute;l&eacute;charg&eacute;"
+msgstr ""
+
+#: application/controllers/AffectationController.php:462
+#: application/controllers/AffectationController.php:941
+#: application/controllers/CommandeController.php:131
+msgid "au"
+msgstr ""
+
+#: application/controllers/AffectationController.php:463
+#: application/controllers/AffectationController.php:942
+#: application/controllers/CommandeController.php:132
+msgid "du"
+msgstr ""
+
+#: application/controllers/AffectationController.php:464
+msgid "Num&eacute;ro de la pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:465
+#: application/controllers/AffectationController.php:486
+#: application/controllers/AffectationController.php:2206
+#: application/controllers/AffectationController.php:2209
+msgid "Etat de la pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:466
+#: application/controllers/AffectationController.php:497
+#: application/controllers/AffectationController.php:2218
+#: application/controllers/AffectationController.php:2309
+msgid "Date limite de fin"
+msgstr ""
+
+#: application/controllers/AffectationController.php:481
+#: application/controllers/AffectationController.php:2201
+msgid "Exporter vers le PDA"
+msgstr ""
+
+#: application/controllers/AffectationController.php:482
+#: application/controllers/AffectationController.php:2202
+msgid "Exporter en format PDF"
+msgstr ""
+
+#: application/controllers/AffectationController.php:483
+#: application/controllers/AffectationController.php:2203
+msgid "Mode d&eacute;grad&eacute;"
+msgstr ""
+
+#: application/controllers/AffectationController.php:484
+msgid "Mes commandes &agrave; pr&eacute;parer"
+msgstr ""
+
+#: application/controllers/AffectationController.php:485
+msgid "texte blabla"
+msgstr ""
+
+#: application/controllers/AffectationController.php:487
+#: application/controllers/AffectationController.php:2207
+msgid "Num&eacute;ro de pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:488
+#: application/controllers/AffectationController.php:2208
+msgid "Nb r&eacute;f&eacute;rences"
+msgstr ""
+
+#: application/controllers/AffectationController.php:489
+#: application/controllers/AffectationController.php:2210
+msgid "Nb produits"
+msgstr ""
+
+#: application/controllers/AffectationController.php:490
+#: application/controllers/AffectationController.php:2211
+msgid "Dur&eacute;e"
+msgstr ""
+
+#: application/controllers/AffectationController.php:491
+#: application/controllers/AffectationController.php:2212
+msgid "Afficher le d&eacute;tail de cette pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:492
+#: application/controllers/AffectationController.php:2213
+#: application/controllers/AffectationController.php:2328
+msgid "Afficher le chemin de pr&eacute;paration de cette pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:493
+#: application/controllers/AffectationController.php:2214
+msgid "Afficher le bon de pr&eacute;paration en format PDF"
+msgstr ""
+
+#: application/controllers/AffectationController.php:494
+#: application/controllers/AffectationController.php:2215
+msgid "Afficher les &eacute;tiquettes pour impression"
+msgstr ""
+
+#: application/controllers/AffectationController.php:495
+msgid "Aucune pr&eacute;paration &agrave; effectuer"
+msgstr ""
+
+#: application/controllers/AffectationController.php:496
+#: application/controllers/AffectationController.php:2217
+#: application/controllers/AffectationController.php:2308
+msgid "Date limite de d&eacute;but"
+msgstr ""
+
+#: application/controllers/AffectationController.php:498
+#: application/controllers/CommandeController.php:395
+msgid "Chemin original"
+msgstr ""
+
+#: application/controllers/AffectationController.php:499
+#: application/controllers/CommandeController.php:396
+msgid "Chemin optimis&eacute;"
+msgstr ""
+
+#: application/controllers/AffectationController.php:805
+#: application/controllers/AffectationController.php:807
+#: application/controllers/AffectationController.php:809
+#: application/controllers/AffectationController.php:811
+#: application/controllers/AffectationController.php:813
+msgid "bon de pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:805
+#: application/controllers/AffectationController.php:807
+#: application/controllers/AffectationController.php:809
+#: application/controllers/AffectationController.php:811
+#: application/controllers/AffectationController.php:813
+msgid "bons de pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:854
+#: application/controllers/AffectationController.php:946
+#: application/controllers/AffectationController.php:1548
+msgid "Toutes zones"
+msgstr ""
+
+#: application/controllers/AffectationController.php:893
+msgid "Affectation manuelle des commandes aux pr&eacute;parateurs"
+msgstr ""
+
+#: application/controllers/AffectationController.php:894
+msgid "Configuration des param&egrave;tres de l'affectation"
+msgstr ""
+
+#: application/controllers/AffectationController.php:895
+#: application/controllers/AffectationController.php:1649
+#: application/controllers/AffectationController.php:1664
+msgid "N&deg; commande"
+msgstr ""
+
+#: application/controllers/AffectationController.php:899
+#: application/controllers/RayonController.php:374
+msgid "Libell&eacute;"
+msgstr ""
+
+#: application/controllers/AffectationController.php:901
+#: application/controllers/AffectationController.php:1655
+msgid "Type de livraison"
+msgstr ""
+
+#: application/controllers/AffectationController.php:902
+#: application/controllers/AffectationController.php:1653
+msgid "Bon de pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:903
+#: application/controllers/AffectationController.php:1654
+msgid "Date max de pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:905
+#: application/controllers/AffectationController.php:1657
+msgid "Nb r&eacute;f&eacute;rences &agrave; affecter"
+msgstr ""
+
+#: application/controllers/AffectationController.php:906
+#: application/controllers/AffectationController.php:1658
+msgid "Nb articles &agrave; affecter"
+msgstr ""
+
+#: application/controllers/AffectationController.php:907
+#: application/controllers/AffectationController.php:1659
+msgid "Nb r&eacute;f&eacute;rences total"
+msgstr ""
+
+#: application/controllers/AffectationController.php:909
+msgid "Aucune commande trouv&eacute;e en attente d'affectation"
+msgstr ""
+
+#: application/controllers/AffectationController.php:912
+msgid "Mode d'affectation"
+msgstr ""
+
+#: application/controllers/AffectationController.php:914
+#: application/kernel/Common.php:1173
+msgid "r&eacute;f&eacute;rences"
+msgstr ""
+
+#: application/controllers/AffectationController.php:915
+#: application/kernel/Common.php:1173
+msgid "r&eacute;f&eacute;rence"
+msgstr ""
+
+#: application/controllers/AffectationController.php:917
+#: application/controllers/AffectationController.php:2294
+#: application/controllers/AffectationController.php:2312
+#: application/controllers/CommandeController.php:176
+msgid "Commande"
+msgstr ""
+
+#: application/controllers/AffectationController.php:918
+msgid "Nombre de r&eacute;f&eacute;rences total"
+msgstr ""
+
+#: application/controllers/AffectationController.php:919
+msgid "Grouper par commandes"
+msgstr ""
+
+#: application/controllers/AffectationController.php:920
+msgid "Grouper par zones"
+msgstr ""
+
+#: application/controllers/AffectationController.php:921
+msgid "Prochaine &eacute;tape"
+msgstr ""
+
+#: application/controllers/AffectationController.php:922
+#: application/controllers/AffectationController.php:1763
+#: application/controllers/AffectationController.php:2303
+#: application/controllers/AffectationController.php:2655
+#: application/controllers/ClientController.php:125
+#: application/controllers/CommandeController.php:177
+#: application/controllers/CommandeController.php:397
+#: application/controllers/EtageController.php:71
+#: application/controllers/EtageController.php:125
+#: application/controllers/GeolocalisationController.php:564
+#: application/controllers/GeolocalisationController.php:773
+#: application/controllers/ProduitController.php:278
+#: application/controllers/ProduitController.php:301
+#: application/controllers/ProduitController.php:587
+#: application/controllers/ProduitController.php:1077
+#: application/controllers/ProduitController.php:1139
+#: application/controllers/ProduitController.php:1306
+#: application/controllers/RayonController.php:145
+#: application/controllers/RayonController.php:290
+#: application/controllers/RayonController.php:378
+#: application/controllers/RayonController.php:450
+#: application/controllers/RayonController.php:532
+#: application/controllers/UtilisateurController.php:102
+#: application/controllers/UtilisateurController.php:186
+#: application/controllers/UtilisateurController.php:366
+#: application/controllers/UtilisateurController.php:585
+#: application/controllers/ZoneController.php:103
+#: application/controllers/ZoneController.php:181
+msgid "Retour"
+msgstr ""
+
+#: application/controllers/AffectationController.php:923
+msgid "Passer &agrave; l'&eacute;tape de s&eacute;lection"
+msgstr ""
+
+#: application/controllers/AffectationController.php:924
+msgid "Confirmation et s&eacute;lection du pr&eacute;parateur"
+msgstr ""
+
+#: application/controllers/AffectationController.php:925
+#: application/controllers/AffectationController.php:1660
+#: application/controllers/CommandeController.php:388
+#: application/controllers/ModelisationController.php:810
+msgid "Temps estim&eacute;"
+msgstr ""
+
+#: application/controllers/AffectationController.php:926
+msgid "La dur&eacute;e de pr&eacute;paration en mode mono commande pour les commandes s&eacute;lectionn&eacute;es est estim&eacute;e &agrave; "
+msgstr ""
+
+#: application/controllers/AffectationController.php:927
+msgid "Mono commande"
+msgstr ""
+
+#: application/controllers/AffectationController.php:928
+msgid "Multi commandes"
+msgstr ""
+
+#: application/controllers/AffectationController.php:929
+msgid "Mono zone"
+msgstr ""
+
+#: application/controllers/AffectationController.php:930
+msgid "Multi zones"
+msgstr ""
+
+#: application/controllers/AffectationController.php:931
+msgid "Combin&eacute;"
+msgstr ""
+
+#: application/controllers/AffectationController.php:932
+msgid "Vous pouvez choisir un mode d'affectation parmi les quatres disponibles"
+msgstr ""
+
+#: application/controllers/AffectationController.php:933
+msgid "Passer &agrave; l'&eacute;tape de s&eacute;l&eacute;ction du pr&eacute;parateur"
+msgstr ""
+
+#: application/controllers/AffectationController.php:934
+msgid "Vous avez s&eacute;l&eacute;ctionn&eacute;"
+msgstr ""
+
+#: application/controllers/AffectationController.php:935
+msgid "bon(s) de pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:938
+#: application/controllers/AffectationController.php:939
+#: application/controllers/AffectationController.php:1671
+msgid "zone"
+msgstr ""
+
+#: application/controllers/AffectationController.php:940
+msgid "combine"
+msgstr ""
+
+#: application/controllers/AffectationController.php:943
+msgid "Commencez tout d'abord par s&eacute;lectionner une ou plusieurs commandes &agrave; affecter."
+msgstr ""
+
+#: application/controllers/AffectationController.php:944
+msgid "Tout s&eacute;lectionner"
+msgstr ""
+
+#: application/controllers/AffectationController.php:945
+msgid "Tout d&eacute;s&eacute;lectionner"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1488
+msgid "Affectation manuelle des commandes &agrave; un pr&eacute;parateur"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1610
+msgid "La pr&eacute;paration est trop longue pour respecter les d&eacute;lais"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1616
+msgid "Aucun utilisateur ne travaille dans de maintenant jusqu'&agrave; la date limite de pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1647
+msgid "Liste des bons de pr&eacute;paration &agrave; affecter"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1648
+#: application/controllers/AffectationController.php:2307
+#: application/kernel/Common.php:1140
+msgid "Mode de pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1661
+msgid "Choisissez le pr&eacute;parateur"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1662
+#: application/controllers/AffectationController.php:2131
+#: application/controllers/AffectationController.php:2204
+#: application/controllers/UtilisateurController.php:168
+#: application/controllers/UtilisateurController.php:198
+#: application/controllers/UtilisateurController.php:379
+#: application/kernel/Common.php:1121
+msgid "Pr&eacute;parateur"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1663
+#: application/controllers/AffectationController.php:2329
+#: application/controllers/ZoneController.php:254
+#: application/controllers/ZoneController.php:264
+msgid "Affecter"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1665
+msgid "r&eacute;f&eacute;rences s&eacute;lectionn&eacute;es"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1666
+msgid "r&eacute;f&eacute;rence s&eacute;lectionn&eacute;e"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1667
+msgid "au total"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1668
+msgid "Commande(s) s&eacute;lectionn&eacute;e(s)"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1669
+msgid "Date limite de pr&eacute;paration le"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1670
+msgid "Dur&eacute;e approximative"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1672
+#: application/kernel/Common.php:1174
+msgid "pour"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1673
+msgid "- livraison le"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1675
+msgid "Revenir &agrave; l'&eacute;tape du choix de mode de pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1753
+msgid "Affectation de la pr&eacute;paration "
+msgstr ""
+
+#: application/controllers/AffectationController.php:1753
+msgid "&agrave; l'utilisateur"
+msgstr ""
+
+#: application/controllers/AffectationController.php:1762
+msgid "Aucune case n'a &eacute;t&eacute; coch&eacute;e &agrave; l'&eacute;tape pr&eacute;c&eacute;dente"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2126
+msgid "Listes des pr&eacute;parations"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2129
+msgid "N&deg; pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2205
+msgid "Commandes &agrave; pr&eacute;parer"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2216
+msgid "Aucune pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2219
+msgid "Supprim&eacute;"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2293
+#: application/controllers/AffectationController.php:2311
+#: application/controllers/CommandeController.php:192
+#: application/controllers/GeolocalisationController.php:319
+#: application/controllers/ProduitController.php:260
+msgid "Produit"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2295
+#: application/controllers/AffectationController.php:2313
+#: application/controllers/CommandeController.php:193
+msgid "Quantit&eacute; command&eacute;e"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2296
+#: application/controllers/AffectationController.php:2315
+#: application/controllers/CommandeController.php:194
+msgid "Prix unitaire TTC"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2297
+#: application/controllers/AffectationController.php:2316
+#: application/controllers/CommandeController.php:195
+msgid "Prix TTC"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2304
+msgid "Pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2305
+msgid "Informations sur la pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2310
+msgid "Composition de la pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2314
+msgid "Quantit&eacute; pr&eacute;lev&eacute;e"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2318
+msgid "D&eacute;tails du produit"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2319
+msgid "D&eacute;tails de la commande"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2320
+msgid "D&eacute;tails du client"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2321
+msgid "Dur&eacute;e de pr&eacute;pration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2322
+msgid "Pr&eacute;prateur"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2323
+msgid "Changer de pr&eacute;prateur"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2324
+msgid "Reinitialiser l'&eacute;tat de la pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2325
+msgid "Supprimer cette pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2326
+msgid "Etes vous s&ucirc;r de vouloir supprimer cette pr&eacute;paration?"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2327
+msgid "Etes vous s&ucirc;r de vouloir r&eacute;initialiser cette pr&eacute;paration?"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2330
+msgid "Terminer la pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2331
+#: application/controllers/ClientController.php:122
+#: application/kernel/Common.php:1187
+msgid "Client"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2332
+msgid "Nombre de bacs"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2333
+msgid "Veuillez renseigner le nombre de bacs pour chaque commande"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2334
+msgid "Cette pr&eacute;paration contient"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2335
+msgid "r&eacute;f&eacute;rence(s)"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2336
+msgid "produit(s)"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2474
+msgid "Erreur lors de la modification du pr&eacute;parateur"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2531
+msgid "Erreur lors de la suppression du fichier "
+msgstr ""
+
+#: application/controllers/AffectationController.php:2564
+msgid "Suppression de la pr&eacute;paration "
+msgstr ""
+
+#: application/controllers/AffectationController.php:2571
+msgid "Erreur lors de la suppression de la pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2594
+#: application/controllers/AffectationController.php:2601
+#: application/controllers/AffectationController.php:2610
+#: application/controllers/AffectationController.php:2616
+#: application/controllers/AffectationController.php:2626
+msgid "Erreur lors de la reinitialisation de la pr&eacute;paration"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2621
+msgid "R&eacute;initialisation de la pr&eacute;paration "
+msgstr ""
+
+#: application/controllers/AffectationController.php:2642
+msgid "Recalcul des temps de pr&eacute;paration par "
+msgstr ""
+
+#: application/controllers/AffectationController.php:2653
+msgid "Configuration des param&egrave;tres d'affectation"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2654
+msgid "Param&egrave;tres de l'affectation"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2657
+msgid "Nombre max des commandes &agrave; regrouper"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2658
+msgid "Temps max de pr&eacute;paration (Minute)"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2659
+msgid "Nombre max des r&eacute;f&eacute;rences &agrave; pr&eacute;parer"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2660
+msgid "Nombre max des articles &agrave; pr&eacute;parer"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2661
+msgid "Poids total max des articles &agrave; pr&eacute;parer (Kg)"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2670
+msgid "Veuillez renseigner un nombre max de commandes valide"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2675
+msgid "Veuillez renseigner un temps max de pr&eacute;paration valide"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2680
+msgid "Veuillez renseigner un nombre max de r&eacute;f&eacute;rences valide"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2685
+msgid "Veuillez renseigner un nombre max d'articles valide"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2690
+msgid "Veuillez renseigner un poids max valide"
+msgstr ""
+
+#: application/controllers/AffectationController.php:2710
+msgid "Modification de la configuration de l'affectation par "
+msgstr ""
+
+#: application/controllers/AffectationController.php:2747
+msgid "L'attribut "
+msgstr ""
+
+#: application/controllers/AffectationController.php:2747
+msgid " ne fait pas partie de l'objet "
+msgstr ""
+
+#: application/controllers/AffectationController.php:2747
+msgid "Affectation"
+msgstr ""
+
+#: application/controllers/ClientController.php:93
+msgid "Gestion de la client&egrave;le"
+msgstr ""
+
+#: application/controllers/ClientController.php:94
+msgid "Aucun client trouv&eacute;"
+msgstr ""
+
+#: application/controllers/ClientController.php:95
+#: application/controllers/ClientController.php:126
+#: application/controllers/UtilisateurController.php:163
+#: application/controllers/UtilisateurController.php:187
+#: application/controllers/UtilisateurController.php:367
+msgid "Pr&eacute;nom"
+msgstr ""
+
+#: application/controllers/ClientController.php:96
+#: application/controllers/ClientController.php:127
+#: application/controllers/UtilisateurController.php:164
+#: application/controllers/UtilisateurController.php:188
+#: application/controllers/UtilisateurController.php:368
+msgid "Nom"
+msgstr ""
+
+#: application/controllers/ClientController.php:97
+#: application/controllers/ClientController.php:128
+msgid "Soci&eacute;t&eacute;"
+msgstr ""
+
+#: application/controllers/ClientController.php:98
+#: application/controllers/ClientController.php:129
+msgid "Code postal"
+msgstr ""
+
+#: application/controllers/ClientController.php:99
+#: application/controllers/ClientController.php:130
+msgid "Municipalit&eacute;"
+msgstr ""
+
+#: application/controllers/ClientController.php:100
+#: application/controllers/ClientController.php:131
+msgid "Nb. commandes"
+msgstr ""
+
+#: application/controllers/ClientController.php:121
+msgid "Informations sur le client"
+msgstr ""
+
+#: application/controllers/ClientController.php:123
+#: application/controllers/CommandeController.php:189
+msgid "T&eacute;l&eacute;phone"
+msgstr ""
+
+#: application/controllers/ClientController.php:124
+#: application/controllers/CommandeController.php:190
+msgid "Adresse de facturation"
+msgstr ""
+
+#: application/controllers/CommandeController.php:119
+msgid "Gestion des commandes"
+msgstr ""
+
+#: application/controllers/CommandeController.php:120
+msgid "R&eacute;cup&eacute;rer les commandes du back-office"
+msgstr ""
+
+#: application/controllers/CommandeController.php:134
+#: application/controllers/CommandeController.php:199
+msgid "Afficher le chemin de pr&eacute;paration de cette commande"
+msgstr ""
+
+#: application/controllers/CommandeController.php:135
+msgid "R&eacute;f&eacute;rences &agrave; affecter"
+msgstr ""
+
+#: application/controllers/CommandeController.php:143
+msgid "L'import des commandes s'est d&eacute;roul&eacute; correctement."
+msgstr ""
+
+#: application/controllers/CommandeController.php:144
+msgid "Retour aux commandes"
+msgstr ""
+
+#: application/controllers/CommandeController.php:145
+msgid "Importation des commandes par "
+msgstr ""
+
+#: application/controllers/CommandeController.php:181
+msgid "Informations sur la commande"
+msgstr ""
+
+#: application/controllers/CommandeController.php:182
+#: application/kernel/Common.php:1165
+msgid "Composition de la commande"
+msgstr ""
+
+#: application/controllers/CommandeController.php:183
+msgid "Etat de la commande"
+msgstr ""
+
+#: application/controllers/CommandeController.php:187
+msgid "Carte de fid&eacute;lit&eacute;"
+msgstr ""
+
+#: application/controllers/CommandeController.php:188
+msgid "Commentaire du client"
+msgstr ""
+
+#: application/controllers/CommandeController.php:191
+msgid "Adresse de livraison"
+msgstr ""
+
+#: application/controllers/CommandeController.php:198
+msgid "Prix total TTC (hors frais compl&eacute;mentaires)"
+msgstr ""
+
+#: application/controllers/CommandeController.php:222
+msgid "Param&egrave;tre invalide : idCommande"
+msgstr ""
+
+#: application/controllers/CommandeController.php:234
+#: application/controllers/CommandeController.php:273
+msgid "Param&egrave;tre invalide : idEtage"
+msgstr ""
+
+#: application/controllers/CommandeController.php:258
+msgid "Chemin de pr&eacute;paration de la commande : "
+msgstr ""
+
+#: application/controllers/CommandeController.php:268
+msgid "Param&egrave;tre invalide : idPreparation"
+msgstr ""
+
+#: application/controllers/CommandeController.php:277
+msgid "Chemin de pr&eacute;paration de la pr&eacute;paration : "
+msgstr ""
+
+#: application/controllers/CommandeController.php:379
+msgid "Attention !"
+msgstr ""
+
+#: application/controllers/CommandeController.php:379
+msgid "Cette commande est sur plusieurs &eacute;tages"
+msgstr ""
+
+#: application/controllers/CommandeController.php:380
+#: application/controllers/ModelisationController.php:680
+#: application/controllers/ModelisationController.php:799
+msgid "L&eacute;gende"
+msgstr ""
+
+#: application/controllers/CommandeController.php:381
+#: application/controllers/ModelisationController.php:681
+#: application/controllers/ModelisationController.php:800
+msgid "Obstacle"
+msgstr ""
+
+#: application/controllers/CommandeController.php:382
+#: application/controllers/ModelisationController.php:682
+#: application/controllers/ModelisationController.php:801
+msgid "Caisse"
+msgstr ""
+
+#: application/controllers/CommandeController.php:384
+#: application/controllers/ModelisationController.php:684
+#: application/controllers/ModelisationController.php:803
+msgid "Zone de d&eacute;part"
+msgstr ""
+
+#: application/controllers/CommandeController.php:385
+#: application/controllers/ZoneController.php:253
+msgid "Informations"
+msgstr ""
+
+#: application/controllers/CommandeController.php:386
+#: application/controllers/ModelisationController.php:808
+msgid "Distance parcourue"
+msgstr ""
+
+#: application/controllers/CommandeController.php:387
+#: application/controllers/ModelisationController.php:809
+msgid "soit"
+msgstr ""
+
+#: application/controllers/CommandeController.php:389
+msgid "Les produits inaccessibles"
+msgstr ""
+
+#: application/controllers/CommandeController.php:390
+msgid "Les produits non g&eacute;olocalis&eacute;s ou se trouvant dans des rayons non encore mod&eacute;lis&eacute;s"
+msgstr ""
+
+#: application/controllers/CommandeController.php:391
+#: application/kernel/Common.php:1289
+msgid "Total"
+msgstr ""
+
+#: application/controllers/CommandeController.php:392
+#: application/controllers/RayonController.php:188
+#: application/kernel/Common.php:1172
+msgid "produit"
+msgstr ""
+
+#: application/controllers/CommandeController.php:393
+#: application/controllers/RayonController.php:189
+#: application/kernel/Common.php:1172
+msgid "produits"
+msgstr ""
+
+#: application/controllers/CommandeController.php:394
+#: application/controllers/ProduitController.php:273
+msgid "Aucun"
+msgstr ""
+
+#: application/controllers/EtageController.php:29
+#: application/controllers/GeolocalisationController.php:312
+msgid "Etages"
+msgstr ""
+
+#: application/controllers/EtageController.php:32
+msgid "Libell&eacute; de l'&eacute;tage"
+msgstr ""
+
+#: application/controllers/EtageController.php:35
+msgid "Nombre de zones"
+msgstr ""
+
+#: application/controllers/EtageController.php:36
+#: application/controllers/ZoneController.php:37
+msgid "Nombre de rayons"
+msgstr ""
+
+#: application/controllers/EtageController.php:37
+#: application/controllers/ZoneController.php:38
+msgid "Nombre de produits"
+msgstr ""
+
+#: application/controllers/EtageController.php:38
+msgid "Editer l'&eacute;tage"
+msgstr ""
+
+#: application/controllers/EtageController.php:70
+msgid "Cr&eacute;er un &eacute;tage"
+msgstr ""
+
+#: application/controllers/EtageController.php:73
+#: application/controllers/RayonController.php:377
+#: application/controllers/ZoneController.php:102
+msgid "Cr&eacute;er"
+msgstr ""
+
+#: application/controllers/EtageController.php:80
+#: application/controllers/EtageController.php:137
+#: application/controllers/ProduitController.php:346
+#: application/controllers/ProduitController.php:622
+#: application/controllers/ZoneController.php:120
+#: application/controllers/ZoneController.php:192
+msgid "Veuillez renseigner un libelle valide"
+msgstr ""
+
+#: application/controllers/EtageController.php:85
+#: application/controllers/EtageController.php:142
+#: application/controllers/ZoneController.php:125
+#: application/controllers/ZoneController.php:197
+msgid "Ce libelle est d&eacute;j&agrave; utilis&eacute;, veuillez en choisir un autre"
+msgstr ""
+
+#: application/controllers/EtageController.php:92
+msgid "Cr&eacute;ation d'un &eacute;tage par "
+msgstr ""
+
+#: application/controllers/EtageController.php:124
+msgid "Editer un &eacute;tage"
+msgstr ""
+
+#: application/controllers/EtageController.php:128
+msgid "Voulez vous vraiment supprimer cet &eacute;tage (La g&eacute;olocalisation de cet &eacute;tage sera d&eacute;truite)"
+msgstr ""
+
+#: application/controllers/EtageController.php:129
+msgid "Supprimer l'&eacute;tage"
+msgstr ""
+
+#: application/controllers/EtageController.php:148
+msgid "Modification du libell&eacute; de l'&eacute;tage "
+msgstr ""
+
+#: application/controllers/EtageController.php:173
+msgid "Impossible de supprimer le premier &eacute;tage."
+msgstr ""
+
+#: application/controllers/EtageController.php:181
+msgid "Suppresion de l'&eacute;tage "
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:285
+msgid "Import de la g&eacute;olocalisation par "
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:292
+msgid "Aucun fichier de g&eacute;olocalisation n'a &eacute;t&eacute; trouv&eacute;"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:303
+#: application/controllers/ProduitController.php:201
+#: application/controllers/ProduitController.php:1290
+#: application/controllers/ProduitController.php:1441
+msgid "non d&eacute;fini"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:307
+#: application/controllers/GeolocalisationController.php:531
+#: application/controllers/ProduitController.php:235
+msgid "Retour aux produits"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:308
+msgid "La g&eacute;olocalisation a &eacute;t&eacute; import&eacute;e avec succ&egrave;s"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:309
+msgid "Rapport"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:310
+#: application/controllers/RayonController.php:147
+msgid "Code EAN"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:314
+#: application/controllers/RayonController.php:43
+msgid "Rayons"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:315
+#: application/controllers/ProduitController.php:49
+#: application/controllers/ProduitController.php:785
+#: application/controllers/ProduitController.php:1147
+#: application/controllers/ProduitController.php:1317
+msgid "Segment"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:316
+msgid "Segments"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:317
+#: application/controllers/ProduitController.php:50
+#: application/controllers/ProduitController.php:786
+#: application/controllers/ProduitController.php:1148
+#: application/controllers/ProduitController.php:1318
+msgid "Etag&egrave;re"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:318
+msgid "Etag&egrave;res"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:320
+msgid "Produits"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:321
+msgid "Produits scann&eacute;s"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:322
+msgid "contenant"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:323
+msgid "comportant"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:324
+msgid "dans"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:325
+msgid "et"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:334
+msgid "produits n'existant pas dans la bases de donn&eacute;es ont &eacute;t&eacute; g&eacute;olocalis&eacute;s"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:335
+msgid "produits pr&eacute;sents dans la bases de donn&eacute;es n'ont pas &eacute;t&eacute; g&eacute;olocalis&eacute;s"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:336
+msgid "produit n'existant pas dans la bases de donn&eacute;es a &eacute;t&eacute; g&eacute;olocalis&eacute;"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:337
+msgid "produit pr&eacute;sent pas dans la bases de donn&eacute;es n'a pas &eacute;t&eacute; g&eacute;olocalis&eacute;"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:526
+msgid "Export de la g&eacute;olocalisation par "
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:530
+msgid "L'export de la g&eacute;olocalisation a &eacute;t&eacute; r&eacute;alis&eacute; avec succ&egrave;s"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:532
+msgid "Un fichier contenant la g&eacute;olocalisation actuelle du magasin a &eacute;t&eacute; mis &agrave; disposition du PDA. A pr&eacute;sent, vous pouvez g&eacute;olocaliser le magasin en utilisant le logiciel embarqu&eacute; de g&eacute;olocalisation. Une fois que vous avez termin&eacute; d'utiliser le logiciel PDA, cliquez sur "
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:533
+msgid "importer la nouvelle g&eacute;olocalisation"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:548
+msgid "Vidage de la g&eacute;olocalisation par "
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:552
+msgid "La g&eacute;olocalisation a &eacute;t&eacute; bien supprim&eacute;e"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:560
+msgid "G&eacute;olocalisation du produit"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:566
+#: application/controllers/GeolocalisationController.php:775
+msgid "G&eacute;olocalisation"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:567
+msgid "Ajouter une nouvelle g&eacute;olocalisation"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:568
+msgid "Supprimer le produit de cet emplacement"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:569
+msgid "Etes vous sur de vouloir supprimer le produit de cet emplacement"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:579
+#: application/controllers/GeolocalisationController.php:784
+#: application/controllers/GeolocalisationController.php:927
+msgid "Param&egrave;tre invalide : idProduit"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:606
+#: application/controllers/GeolocalisationController.php:809
+msgid "Pour modifier la g&eacute;olocalisation, cliquez sur le segment correspondant au nouvel emplacement du produit."
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:608
+#: application/controllers/GeolocalisationController.php:811
+msgid "Pour modifier la g&eacute;olocalisation, cliquez sur l'&eacute;tag&egrave;re correspondante au nouvel emplacement du produit."
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:651
+#: application/controllers/GeolocalisationController.php:860
+msgid "Veuillez choisir un rayon"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:660
+#: application/controllers/GeolocalisationController.php:869
+#: application/controllers/ZoneController.php:353
+msgid "Veuillez choisir une zone"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:669
+#: application/controllers/GeolocalisationController.php:878
+msgid "Veuillez choisir un &eacute;tage"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:692
+msgid "Param&egrave;tre invalide : idGeolocalisation"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:698
+msgid "Modification de la g&eacute;olocalisation du produit "
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:711
+msgid "Ce produit n'est g&eacute;olocalis&eacute; dans cet emplacement"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:748
+#: application/controllers/GeolocalisationController.php:936
+msgid "Param&egrave;tre invalide : idEtagere"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:753
+msgid "Ce produit n'est pas encore g&eacute;olocalis&eacute;."
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:769
+msgid "Nouvelle g&eacute;olocalisation pour le produit"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:794
+msgid "Ce produit ne poss&egrave;de pas de code Ean, il est impossible de le g&eacute;olocaliser."
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:798
+msgid "Il n'existe aucun rayons dans la base de donn&eacute;es, il est impossible de g&eacute;olocaliser ce produit."
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:798
+msgid "Veuillez revoir la g&eacute;olocalisation du magasin."
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:900
+msgid "Ajout d'une g&eacute;olocalisation pour le produit "
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:923
+msgid "Un param&egrave;tre est manquant pour effectuer l'action demand&eacute;e : idProduit"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:932
+msgid "Un param&egrave;tre est manquant pour effectuer l'action demand&eacute;e : idEtagere"
+msgstr ""
+
+#: application/controllers/GeolocalisationController.php:942
+msgid "Suppression d'une g&eacute;olocalisation du produit "
+msgstr ""
+
+#: application/controllers/ModelisationController.php:92
+msgid "Enregistrement automatique des positions - "
+msgstr ""
+
+#: application/controllers/ModelisationController.php:644
+msgid "Sauvegarde et calcul des matrices - "
+msgstr ""
+
+#: application/controllers/ModelisationController.php:674
+msgid "Etape"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:675
+msgid "Magasin"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:676
+msgid "Synchronisation des produits"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:677
+msgid "Commencer la g&eacute;olocalisation"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:678
+msgid "Terminer la g&eacute;olocalisation"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:679
+msgid "Mod&eacute;lisation du magasin"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:685
+#: application/controllers/ModelisationController.php:804
+msgid "Zone d'arriv&eacute;e"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:686
+#: application/controllers/ModelisationController.php:805
+msgid "Superficie"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:687
+#: application/controllers/ModelisationController.php:806
+msgid "1 m&egrave;tre"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:688
+#: application/controllers/ModelisationController.php:807
+msgid "Actions"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:689
+msgid "Ajouter un obstacle"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:690
+msgid "Sauvegarder"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:691
+msgid "Demo"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:692
+msgid "Etes-vous s&ucirc;r de vouloir r&eacute;initialiser la mod&eacute;lisation de cet &eacute;tage?"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:693
+msgid "R&eacute;initialiser la mod&eacute;lisation"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:694
+msgid "Sauvegarde en cours"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:695
+msgid "Cette op&eacute;ration peut prendre plusieurs minutes..."
+msgstr ""
+
+#: application/controllers/ModelisationController.php:696
+msgid "g&eacute;n&eacute;ration du backup de la DB"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:697
+msgid "sauvegarde des positions et calcul des chemins"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:811
+msgid "Tracer le chemin"
+msgstr ""
+
+#: application/controllers/ModelisationController.php:834
+msgid "R&eacute;initialisation de la mod&eacute;lisation de l\\&eacute;tage "
+msgstr ""
+
+#: application/controllers/PlanningController.php:81
+msgid "Planning des utilisateurs pour"
+msgstr ""
+
+#: application/controllers/PlanningController.php:82
+msgid "Configurer les param&egrave;tres"
+msgstr ""
+
+#: application/controllers/PlanningController.php:83
+msgid "Dupliquer la journ&eacute;e"
+msgstr ""
+
+#: application/controllers/PlanningController.php:84
+msgid "Dupliquer la semaine &agrave; la semaine d'apr&egrave;s"
+msgstr ""
+
+#: application/controllers/PlanningController.php:85
+msgid "Etes-vous s&ucirc;r de vouloir dupliquer la semaine en cours &agrave; la semaine suivante?"
+msgstr ""
+
+#: application/controllers/PlanningController.php:86
+msgid "Semaine"
+msgstr ""
+
+#: application/controllers/PlanningController.php:87
+msgid "Semaine suivante"
+msgstr ""
+
+#: application/controllers/PlanningController.php:88
+msgid "Semaine pr&eacute;c&eacute;dente"
+msgstr ""
+
+#: application/controllers/PlanningController.php:89
+msgid "Retourner &agrave; aujourd'hui"
+msgstr ""
+
+#: application/controllers/PlanningController.php:90
+msgid "utilisateur"
+msgstr ""
+
+#: application/controllers/PlanningController.php:91
+msgid "utilisateurs"
+msgstr ""
+
+#: application/controllers/PlanningController.php:105
+#: application/controllers/PlanningController.php:203
+#: application/controllers/RayonController.php:149
+msgid "Aide"
+msgstr ""
+
+#: application/controllers/PlanningController.php:106
+msgid "Aide planning"
+msgstr ""
+
+#: application/controllers/PlanningController.php:107
+msgid "Gr&acirc;ce au planning, vous pouvez affecter vos ressources disponibles par cr&eacute;neau (soit des cr&eacute;neaux de 30minutes soit de 1 heure)."
+msgstr ""
+
+#: application/controllers/PlanningController.php:195
+msgid "Liste des personnes qui travaillent"
+msgstr ""
+
+#: application/controllers/PlanningController.php:196
+msgid "Tous les utilisateurs ont &eacute;t&eacute; affect&eacute;s."
+msgstr ""
+
+#: application/controllers/PlanningController.php:197
+msgid "Impossible d'ajouter des utilisateurs pour ce cr&eacute;neau car il est d&eacute;j&agrave; termin&eacute;."
+msgstr ""
+
+#: application/controllers/PlanningController.php:198
+#: application/controllers/UtilisateurController.php:158
+#: application/controllers/UtilisateurController.php:192
+msgid "Ajouter un utilisateur"
+msgstr ""
+
+#: application/controllers/PlanningController.php:199
+msgid "Utilisateur"
+msgstr ""
+
+#: application/controllers/PlanningController.php:200
+#: application/controllers/UtilisateurController.php:311
+#: application/controllers/UtilisateurController.php:479
+msgid "de"
+msgstr ""
+
+#: application/controllers/PlanningController.php:201
+#: application/kernel/Common.php:1134
+msgid "&agrave;"
+msgstr ""
+
+#: application/controllers/PlanningController.php:259
+msgid "Duplication du jour "
+msgstr ""
+
+#: application/controllers/PlanningController.php:259
+msgid " sur "
+msgstr ""
+
+#: application/controllers/PlanningController.php:259
+msgid " jours"
+msgstr ""
+
+#: application/controllers/PlanningController.php:268
+msgid "Dupliquer la journ&eacute;e sur"
+msgstr ""
+
+#: application/controllers/PlanningController.php:269
+msgid "jour(s)"
+msgstr ""
+
+#: application/controllers/PlanningController.php:270
+#: application/controllers/RayonController.php:449
+#: application/controllers/RayonController.php:531
+#: application/controllers/UtilisateurController.php:101
+msgid "Valider"
+msgstr ""
+
+#: application/controllers/PlanningController.php:304
+msgid "Duplication de la semaine "
+msgstr ""
+
+#: application/controllers/PlanningController.php:369
+msgid "Ajout du cr&eacute;neau "
+msgstr ""
+
+#: application/controllers/PlanningController.php:369
+#: application/controllers/PlanningController.php:416
+msgid " pour l'utilisateur "
+msgstr ""
+
+#: application/controllers/PlanningController.php:416
+msgid "Suppression du cr&eacute;neau "
+msgstr ""
+
+#: application/controllers/PlanningController.php:458
+#: application/controllers/UtilisateurController.php:157
+msgid "Liste des utilisateurs"
+msgstr ""
+
+#: application/controllers/PlanningController.php:504
+msgid "Plage horaire"
+msgstr ""
+
+#: application/controllers/PlanningController.php:505
+msgid "Heure de d&eacute;but"
+msgstr ""
+
+#: application/controllers/PlanningController.php:506
+msgid "Heure de fin"
+msgstr ""
+
+#: application/controllers/PlanningController.php:507
+msgid "Vue semaine"
+msgstr ""
+
+#: application/controllers/PlanningController.php:508
+msgid "Journ&eacute;e de d&eacute;but"
+msgstr ""
+
+#: application/controllers/PlanningController.php:509
+msgid "Journ&eacute;e de fin"
+msgstr ""
+
+#: application/controllers/PlanningController.php:510
+msgid "Cr&eacute;neau"
+msgstr ""
+
+#: application/controllers/PlanningController.php:512
+msgid "Cr&eacute;neau par"
+msgstr ""
+
+#: application/controllers/PlanningController.php:514
+msgid "Lundi"
+msgstr ""
+
+#: application/controllers/PlanningController.php:514
+msgid "Mardi"
+msgstr ""
+
+#: application/controllers/PlanningController.php:514
+msgid "Mercredi"
+msgstr ""
+
+#: application/controllers/PlanningController.php:514
+msgid "Jeudi"
+msgstr ""
+
+#: application/controllers/PlanningController.php:514
+msgid "Vendredi"
+msgstr ""
+
+#: application/controllers/PlanningController.php:514
+msgid "Samedi"
+msgstr ""
+
+#: application/controllers/PlanningController.php:514
+msgid "Dimanche"
+msgstr ""
+
+#: application/controllers/PlanningController.php:517
+msgid "Heure"
+msgstr ""
+
+#: application/controllers/PlanningController.php:517
+msgid "Demi heure"
+msgstr ""
+
+#: application/controllers/PlanningController.php:525
+msgid "Veuillez renseigner une heure de d&eacute;but valide"
+msgstr ""
+
+#: application/controllers/PlanningController.php:530
+msgid "Veuillez renseigner une heure de fin valide"
+msgstr ""
+
+#: application/controllers/PlanningController.php:535
+msgid "Veuillez renseigner une journ&eacute;e de d&eacute;but valide"
+msgstr ""
+
+#: application/controllers/PlanningController.php:540
+msgid "Veuillez renseigner une journ&eacute;e de fin valide"
+msgstr ""
+
+#: application/controllers/PlanningController.php:545
+msgid "Veuillez renseigner un cr&eacute;neau valide"
+msgstr ""
+
+#: application/controllers/PlanningController.php:567
+msgid "Modification de la configuration du planning par "
+msgstr ""
+
+#: application/controllers/ProduitController.php:44
+#: application/controllers/ProduitController.php:780
+#: application/controllers/ProduitController.php:1075
+#: application/controllers/ProduitController.php:1142
+#: application/controllers/ProduitController.php:1312
+msgid "Code Ean"
+msgstr ""
+
+#: application/controllers/ProduitController.php:51
+#: application/controllers/ProduitController.php:284
+#: application/controllers/ProduitController.php:323
+#: application/controllers/ProduitController.php:608
+#: application/controllers/ProduitController.php:791
+#: application/controllers/RayonController.php:293
+#: application/controllers/ZoneController.php:176
+msgid "D&eacute;but"
+msgstr ""
+
+#: application/controllers/ProduitController.php:52
+#: application/controllers/ProduitController.php:285
+#: application/controllers/ProduitController.php:324
+#: application/controllers/ProduitController.php:609
+#: application/controllers/ProduitController.php:792
+#: application/controllers/RayonController.php:294
+#: application/controllers/ZoneController.php:177
+msgid "Normal"
+msgstr ""
+
+#: application/controllers/ProduitController.php:53
+#: application/controllers/ProduitController.php:286
+#: application/controllers/ProduitController.php:325
+#: application/controllers/ProduitController.php:610
+#: application/controllers/ProduitController.php:793
+#: application/controllers/RayonController.php:295
+#: application/controllers/ZoneController.php:178
+msgid "Fin"
+msgstr ""
+
+#: application/controllers/ProduitController.php:55
+msgid "Aucun produit n'a &eacute;t&eacute; trouv&eacute;"
+msgstr ""
+
+#: application/controllers/ProduitController.php:56
+#: application/controllers/ProduitController.php:1080
+#: application/controllers/ProduitController.php:1150
+#: application/controllers/ProduitController.php:1320
+#: application/controllers/RayonController.php:148
+msgid "Consulter le produit"
+msgstr ""
+
+#: application/controllers/ProduitController.php:212
+msgid "Liste des produits"
+msgstr ""
+
+#: application/controllers/ProduitController.php:230
+msgid "Importation des produits par "
+msgstr ""
+
+#: application/controllers/ProduitController.php:234
+msgid "L'import des produits s'est d&eacute;roul&eacute; correctement."
+msgstr ""
+
+#: application/controllers/ProduitController.php:262
+#: application/controllers/ProduitController.php:302
+#: application/controllers/ProduitController.php:588
+msgid "Code du produit"
+msgstr ""
+
+#: application/controllers/ProduitController.php:263
+#: application/controllers/ProduitController.php:304
+#: application/controllers/ProduitController.php:590
+msgid "Largeur"
+msgstr ""
+
+#: application/controllers/ProduitController.php:264
+#: application/controllers/ProduitController.php:305
+#: application/controllers/ProduitController.php:591
+msgid "Hauteur"
+msgstr ""
+
+#: application/controllers/ProduitController.php:265
+#: application/controllers/ProduitController.php:306
+#: application/controllers/ProduitController.php:592
+msgid "Profondeur"
+msgstr ""
+
+#: application/controllers/ProduitController.php:266
+#: application/controllers/ProduitController.php:307
+#: application/controllers/ProduitController.php:593
+msgid "Unite de mesure"
+msgstr ""
+
+#: application/controllers/ProduitController.php:267
+#: application/controllers/ProduitController.php:308
+#: application/controllers/ProduitController.php:594
+msgid "Quantit&eacute; par unit&eacute; de mesure"
+msgstr ""
+
+#: application/controllers/ProduitController.php:268
+#: application/controllers/ProduitController.php:309
+#: application/controllers/ProduitController.php:595
+msgid "Poids brut"
+msgstr ""
+
+#: application/controllers/ProduitController.php:269
+#: application/controllers/ProduitController.php:310
+#: application/controllers/ProduitController.php:596
+msgid "Poids net"
+msgstr ""
+
+#: application/controllers/ProduitController.php:270
+#: application/controllers/ProduitController.php:311
+#: application/controllers/ProduitController.php:597
+msgid "Est un poids variable"
+msgstr ""
+
+#: application/controllers/ProduitController.php:271
+#: application/controllers/ProduitController.php:312
+#: application/controllers/ProduitController.php:598
+#: application/controllers/ProduitController.php:788
+#: application/controllers/RayonController.php:288
+#: application/controllers/ZoneController.php:173
+msgid "Priorit&eacute;"
+msgstr ""
+
+#: application/controllers/ProduitController.php:272
+#: application/controllers/ProduitController.php:313
+#: application/controllers/ProduitController.php:599
+msgid "Stock"
+msgstr ""
+
+#: application/controllers/ProduitController.php:274
+#: application/controllers/ProduitController.php:789
+msgid "Provenance"
+msgstr ""
+
+#: application/controllers/ProduitController.php:275
+#: application/controllers/ProduitController.php:314
+#: application/controllers/ProduitController.php:600
+#: application/controllers/UtilisateurController.php:191
+#: application/controllers/UtilisateurController.php:373
+msgid "Photo"
+msgstr ""
+
+#: application/controllers/ProduitController.php:276
+#: application/controllers/ProduitController.php:316
+#: application/controllers/ProduitController.php:601
+msgid "Non"
+msgstr ""
+
+#: application/controllers/ProduitController.php:277
+#: application/controllers/ProduitController.php:317
+#: application/controllers/ProduitController.php:602
+msgid "Oui"
+msgstr ""
+
+#: application/controllers/ProduitController.php:279
+#: application/controllers/ProduitController.php:319
+#: application/controllers/ProduitController.php:604
+msgid "Informations du produit"
+msgstr ""
+
+#: application/controllers/ProduitController.php:280
+#: application/controllers/ProduitController.php:320
+#: application/controllers/ProduitController.php:605
+msgid "Les codes Eans correspondant au produit"
+msgstr ""
+
+#: application/controllers/ProduitController.php:281
+msgid "Modifier la g&eacute;olocalisation du produit"
+msgstr ""
+
+#: application/controllers/ProduitController.php:282
+msgid "Afficher la g&eacute;olocalisation du produit"
+msgstr ""
+
+#: application/controllers/ProduitController.php:283
+#: application/controllers/ProduitController.php:322
+#: application/controllers/ProduitController.php:607
+#: application/controllers/ProduitController.php:790
+#: application/controllers/RayonController.php:292
+#: application/controllers/ZoneController.php:175
+msgid "Sans priorit&eacute;"
+msgstr ""
+
+#: application/controllers/ProduitController.php:300
+msgid "Editer un produit"
+msgstr ""
+
+#: application/controllers/ProduitController.php:315
+msgid "Supprimer ce code EAN"
+msgstr ""
+
+#: application/controllers/ProduitController.php:321
+#: application/controllers/ProduitController.php:606
+msgid "Ajouter un code EAN pour ce produit"
+msgstr ""
+
+#: application/controllers/ProduitController.php:326
+msgid "Etes-vous s&ucirc;r de vouloir supprimer ce produit?"
+msgstr ""
+
+#: application/controllers/ProduitController.php:327
+msgid "Supprimer le produit"
+msgstr ""
+
+#: application/controllers/ProduitController.php:328
+msgid "Etes-vous s&ucirc;r de vouloir supprimer ce code EAN?"
+msgstr ""
+
+#: application/controllers/ProduitController.php:340
+#: application/controllers/ProduitController.php:617
+msgid "Veuillez renseigner un code produit valide"
+msgstr ""
+
+#: application/controllers/ProduitController.php:351
+#: application/controllers/ProduitController.php:627
+msgid "Veuillez renseigner une largeur valide"
+msgstr ""
+
+#: application/controllers/ProduitController.php:356
+#: application/controllers/ProduitController.php:632
+msgid "Veuillez renseigner une hauteur valide"
+msgstr ""
+
+#: application/controllers/ProduitController.php:361
+#: application/controllers/ProduitController.php:637
+msgid "Veuillez renseigner une profondeur valide"
+msgstr ""
+
+#: application/controllers/ProduitController.php:366
+#: application/controllers/ProduitController.php:642
+msgid "Veuillez renseigner une unit&eacute; de mesure valide"
+msgstr ""
+
+#: application/controllers/ProduitController.php:371
+#: application/controllers/ProduitController.php:647
+msgid "Veuillez renseigner une quantit&eacute; par unit&eacute; de mesure valide"
+msgstr ""
+
+#: application/controllers/ProduitController.php:376
+#: application/controllers/ProduitController.php:652
+msgid "Veuillez renseigner un poids brut valide"
+msgstr ""
+
+#: application/controllers/ProduitController.php:381
+#: application/controllers/ProduitController.php:657
+msgid "Veuillez renseigner un poids net valide"
+msgstr ""
+
+#: application/controllers/ProduitController.php:386
+#: application/controllers/ProduitController.php:662
+msgid "Veuillez renseigner un estPoidsVariable valide"
+msgstr ""
+
+#: application/controllers/ProduitController.php:391
+#: application/controllers/ProduitController.php:667
+#: application/controllers/RayonController.php:333
+#: application/controllers/ZoneController.php:203
+msgid "Veuillez renseigner une priorit&eacute; valide"
+msgstr ""
+
+#: application/controllers/ProduitController.php:397
+#: application/controllers/ProduitController.php:673
+msgid "Veuillez renseigner une valeur de stock valide"
+msgstr ""
+
+#: application/controllers/ProduitController.php:406
+msgid "Impossible de supprimmer le code EAN"
+msgstr ""
+
+#: application/controllers/ProduitController.php:427
+#: application/controllers/ProduitController.php:685
+msgid "Ce code EAN existe d&eacute;j&agrave; pour un autre produit. "
+msgstr ""
+
+#: application/controllers/ProduitController.php:427
+#: application/controllers/ProduitController.php:685
+msgid "Veuillez renseigner un autre code EAN."
+msgstr ""
+
+#: application/controllers/ProduitController.php:430
+#: application/controllers/ProduitController.php:688
+msgid "Veuillez renseigner un code EAN valide"
+msgstr ""
+
+#: application/controllers/ProduitController.php:489
+msgid "Edition du produit "
+msgstr ""
+
+#: application/controllers/ProduitController.php:512
+#: application/controllers/ProduitController.php:536
+#: application/controllers/ProduitController.php:569
+#: application/controllers/ProduitController.php:750
+msgid "Ce produit ne poss&egrave;de pas de code EAN !"
+msgstr ""
+
+#: application/controllers/ProduitController.php:516
+msgid "aucun produit trouv&eacute;"
+msgstr ""
+
+#: application/controllers/ProduitController.php:586
+msgid "Ajouter un produit"
+msgstr ""
+
+#: application/controllers/ProduitController.php:725
+msgid "Ajout du produit "
+msgstr ""
+
+#: application/controllers/ProduitController.php:776
+msgid "Gestion des priorit&eacute;s de passage"
+msgstr ""
+
+#: application/controllers/ProduitController.php:787
+msgid "Affectation des priorit&eacute;s"
+msgstr ""
+
+#: application/controllers/ProduitController.php:794
+msgid "Etes vous s&ucirc;r ?"
+msgstr ""
+
+#: application/controllers/ProduitController.php:796
+msgid "Aucun produit g&eacute;olocalis&eacute; n'a &eacute;t&eacute; trouv&eacute;"
+msgstr ""
+
+#: application/controllers/ProduitController.php:797
+msgid "Consulter la fiche du produit"
+msgstr ""
+
+#: application/controllers/ProduitController.php:798
+#: application/controllers/RayonController.php:51
+msgid "Consulter le rayon"
+msgstr ""
+
+#: application/controllers/ProduitController.php:814
+msgid "Affecter cette priorit&eacute; &agrave; tous les produits du magasin"
+msgstr ""
+
+#: application/controllers/ProduitController.php:817
+msgid "En cochant cette option, vous affectez la priorit&eacute; &agrave; tous les produits pr&eacute;sents dans le magasin."
+msgstr ""
+
+#: application/controllers/ProduitController.php:826
+msgid "Affecter cette priorit&eacute; &agrave; l'&eacute;tage choisi"
+msgstr ""
+
+#: application/controllers/ProduitController.php:829
+msgid "En cochant cette option, vous affectez la priorit&eacute; &agrave; l'&eacute;tage choisi dans le filtre et non pas &agrave; chaque produit. Ainsi, tous les produits qui se trouvent dans cet &eacute;tage auront cette priorit&eacute;."
+msgstr ""
+
+#: application/controllers/ProduitController.php:836
+msgid "Affecter cette priorit&eacute; &agrave; la zone choisie"
+msgstr ""
+
+#: application/controllers/ProduitController.php:839
+msgid "En cochant cette option, vous affectez la priorit&eacute; &agrave; la zone choisie dans le filtre et non pas &agrave; chaque produit. Ainsi, tous les produits qui se trouvent dans cette zone auront cette priorit&eacute;."
+msgstr ""
+
+#: application/controllers/ProduitController.php:846
+msgid "Affecter cette priorit&eacute; au rayon choisi"
+msgstr ""
+
+#: application/controllers/ProduitController.php:849
+msgid "En cochant cette option, vous affectez la priorit&eacute; au rayon choisi dans le filtre et non pas &agrave; chaque produit. Ainsi, tous les produits qui se trouvent dans ce rayon auront cette priorit&eacute;."
+msgstr ""
+
+#: application/controllers/ProduitController.php:860
+msgid "Affecter cette priorit&eacute; au segment choisi"
+msgstr ""
+
+#: application/controllers/ProduitController.php:863
+msgid "En cochant cette option, vous affectez la priorit&eacute; au segment choisi dans le filtre et non pas &agrave; chaque produit. Ainsi, tous les produits qui se trouvent dans ce segment auront cette priorit&eacute;."
+msgstr ""
+
+#: application/controllers/ProduitController.php:873
+msgid "Affecter cette priorit&eacute; &agrave; l'&eacute;tag&egrave;re choisie"
+msgstr ""
+
+#: application/controllers/ProduitController.php:876
+msgid "En cochant cette option, vous affectez la priorit&eacute; &agrave; l'&eacute;tag&egrave;re choisi dans le filtre et non pas &agrave; chaque produit. Ainsi, tous les produits qui se trouvent dans cette &eacute;tag&egrave;re auront cette priorit&eacute;."
+msgstr ""
+
+#: application/controllers/ProduitController.php:966
+#: application/controllers/ProduitController.php:973
+#: application/controllers/ProduitController.php:985
+#: application/controllers/ProduitController.php:996
+#: application/controllers/ProduitController.php:1007
+#: application/controllers/ProduitController.php:1018
+#: application/controllers/ProduitController.php:1034
+msgid "Modification de la priorit&eacute; "
+msgstr ""
+
+#: application/controllers/ProduitController.php:966
+msgid "de tous les produits"
+msgstr ""
+
+#: application/controllers/ProduitController.php:973
+msgid "de l'&eacute;tage "
+msgstr ""
+
+#: application/controllers/ProduitController.php:977
+msgid "Param&egrave;tre invalide : choix finesse -> etage"
+msgstr ""
+
+#: application/controllers/ProduitController.php:985
+msgid "de la zone "
+msgstr ""
+
+#: application/controllers/ProduitController.php:988
+msgid "Param&egrave;tre invalide : choix finesse -> zone"
+msgstr ""
+
+#: application/controllers/ProduitController.php:996
+msgid "du rayon "
+msgstr ""
+
+#: application/controllers/ProduitController.php:999
+msgid "Param&egrave;tre invalide : choix finesse -> rayon"
+msgstr ""
+
+#: application/controllers/ProduitController.php:1007
+msgid "du segment "
+msgstr ""
+
+#: application/controllers/ProduitController.php:1010
+msgid "Param&egrave;tre invalide : choix finesse -> segment"
+msgstr ""
+
+#: application/controllers/ProduitController.php:1018
+msgid "de l'etagere "
+msgstr ""
+
+#: application/controllers/ProduitController.php:1021
+msgid "Param&egrave;tre invalide : choix finesse -> etagere"
+msgstr ""
+
+#: application/controllers/ProduitController.php:1034
+msgid "des produits "
+msgstr ""
+
+#: application/controllers/ProduitController.php:1071
+msgid "Liste des produits non g&eacute;olocalis&eacute;s"
+msgstr ""
+
+#: application/controllers/ProduitController.php:1079
+msgid "Aucun produit non g&eacute;olocalis&eacute; n'a &eacute;t&eacute; trouv&eacute;"
+msgstr ""
+
+#: application/controllers/ProduitController.php:1136
+msgid "Listes des produits g&eacute;olocalis&eacute;s mais inconnus"
+msgstr ""
+
+#: application/controllers/ProduitController.php:1149
+msgid "Aucun produit inconnu n'a &eacute;t&eacute; trouv&eacute;"
+msgstr ""
+
+#: application/controllers/ProduitController.php:1305
+msgid "Listes des produits sans code Ean"
+msgstr ""
+
+#: application/controllers/ProduitController.php:1310
+msgid "Libelle du produit"
+msgstr ""
+
+#: application/controllers/ProduitController.php:1319
+msgid "Aucun produit sans code Ean n'a &eacute;t&eacute; trouv&eacute;"
+msgstr ""
+
+#: application/controllers/ProduitController.php:1464
+msgid "Le produit apparait au moins dans une commande, il n'est donc pas possible de le supprimer."
+msgstr ""
+
+#: application/controllers/ProduitController.php:1469
+msgid "Le produit a bien &eacute;t&eacute; supprim&eacute;"
+msgstr ""
+
+#: application/controllers/ProduitController.php:1471
+msgid "Suppression du produit "
+msgstr ""
+
+#: application/controllers/ProduitController.php:1475
+msgid "Retour &agrave; la liste des produits"
+msgstr ""
+
+#: application/controllers/RayonController.php:44
+msgid "rayons"
+msgstr ""
+
+#: application/controllers/RayonController.php:45
+msgid "rayon"
+msgstr ""
+
+#: application/controllers/RayonController.php:46
+#: application/controllers/RayonController.php:186
+msgid "segments"
+msgstr ""
+
+#: application/controllers/RayonController.php:47
+#: application/controllers/RayonController.php:185
+msgid "segment"
+msgstr ""
+
+#: application/controllers/RayonController.php:48
+#: application/controllers/ZoneController.php:260
+msgid "Libell&eacute; du rayon"
+msgstr ""
+
+#: application/controllers/RayonController.php:52
+msgid "Nombre de segments"
+msgstr ""
+
+#: application/controllers/RayonController.php:55
+#: application/controllers/ZoneController.php:40
+msgid "Editer la zone"
+msgstr ""
+
+#: application/controllers/RayonController.php:56
+#: application/controllers/RayonController.php:446
+msgid "Importer des rayons"
+msgstr ""
+
+#: application/controllers/RayonController.php:57
+#: application/controllers/RayonController.php:529
+msgid "Exporter les rayons"
+msgstr ""
+
+#: application/controllers/RayonController.php:150
+#: application/controllers/RayonController.php:151
+msgid "Aide affichage du rayon"
+msgstr ""
+
+#: application/controllers/RayonController.php:183
+msgid "Ce produit appartient &agrave; la zone "
+msgstr ""
+
+#: application/controllers/RayonController.php:184
+msgid "et poss&egrave;de "
+msgstr ""
+
+#: application/controllers/RayonController.php:187
+msgid "Il contient"
+msgstr ""
+
+#: application/controllers/RayonController.php:190
+msgid "dont"
+msgstr ""
+
+#: application/controllers/RayonController.php:193
+msgid "inconnu"
+msgstr ""
+
+#: application/controllers/RayonController.php:194
+msgid "inconnus"
+msgstr ""
+
+#: application/controllers/RayonController.php:195
+msgid "Quelques produits pr&eacute;sents dans ce rayon : "
+msgstr ""
+
+#: application/controllers/RayonController.php:196
+msgid "Annuler la mod&eacute;lisation de ce rayon"
+msgstr ""
+
+#: application/controllers/RayonController.php:197
+msgid "Fermer"
+msgstr ""
+
+#: application/controllers/RayonController.php:265
+msgid "D&eacute;tails du rayon : "
+msgstr ""
+
+#: application/controllers/RayonController.php:287
+#: application/controllers/RayonController.php:375
+msgid "Localisation"
+msgstr ""
+
+#: application/controllers/RayonController.php:289
+msgid "Edition du rayon"
+msgstr ""
+
+#: application/controllers/RayonController.php:291
+msgid "actuel"
+msgstr ""
+
+#: application/controllers/RayonController.php:296
+msgid "Informations du rayon"
+msgstr ""
+
+#: application/controllers/RayonController.php:297
+msgid "Voulez vous vraiment supprimer le rayon"
+msgstr ""
+
+#: application/controllers/RayonController.php:298
+msgid "Supprimer le rayon"
+msgstr ""
+
+#: application/controllers/RayonController.php:318
+#: application/controllers/RayonController.php:399
+msgid "Veuillez renseigner un libell&eacute; valide"
+msgstr ""
+
+#: application/controllers/RayonController.php:323
+#: application/controllers/RayonController.php:404
+msgid "Ce libell&eacute; est d&eacute;j&agrave; utilis&eacute;, veuillez en choisir un autre"
+msgstr ""
+
+#: application/controllers/RayonController.php:328
+#: application/controllers/RayonController.php:409
+msgid "Veuillez renseigner une localisation valide"
+msgstr ""
+
+#: application/controllers/RayonController.php:343
+msgid "Edition du rayon "
+msgstr ""
+
+#: application/controllers/RayonController.php:372
+msgid "Cr&eacute;er un rayon"
+msgstr ""
+
+#: application/controllers/RayonController.php:376
+msgid "Type du rayon"
+msgstr ""
+
+#: application/controllers/RayonController.php:379
+msgid "classique"
+msgstr ""
+
+#: application/controllers/RayonController.php:379
+msgid "vrac"
+msgstr ""
+
+#: application/controllers/RayonController.php:389
+#: application/controllers/RayonController.php:459
+#: application/controllers/ZoneController.php:115
+msgid "Etage n'existe pas"
+msgstr ""
+
+#: application/controllers/RayonController.php:394
+msgid "Veuillez renseigner un type valide"
+msgstr ""
+
+#: application/controllers/RayonController.php:418
+msgid "Cr&eacute;ation du rayon "
+msgstr ""
+
+#: application/controllers/RayonController.php:448
+msgid "Fichier &agrave; importer"
+msgstr ""
+
+#: application/controllers/RayonController.php:463
+msgid "Le fichier sp&eacute;cifi&eacute; n'est pas correct"
+msgstr ""
+
+#: application/controllers/RayonController.php:505
+msgid "Import des rayons par "
+msgstr ""
+
+#: application/controllers/RayonController.php:509
+msgid "L'import s'est d&eacute;roul&eacute;e correctement."
+msgstr ""
+
+#: application/controllers/RayonController.php:544
+msgid "Export des rayons par "
+msgstr ""
+
+#: application/controllers/RayonController.php:583
+msgid "Suppression du rayon "
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:45
+msgid "Connexion"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:46
+msgid "Merci de vous identifier"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:47
+#: application/controllers/UtilisateurController.php:100
+#: application/controllers/UtilisateurController.php:166
+#: application/controllers/UtilisateurController.php:190
+#: application/controllers/UtilisateurController.php:370
+msgid "Identifiant"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:48
+#: application/controllers/UtilisateurController.php:195
+#: application/controllers/UtilisateurController.php:376
+msgid "Mot de passe"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:49
+msgid "Se connecter"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:50
+#: application/controllers/UtilisateurController.php:98
+msgid "R&eacute;cup&eacute;rer le mot de passe"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:65
+msgid "Connexion de "
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:73
+#: application/controllers/UtilisateurController.php:135
+msgid "Aucun utilisateur trouv&eacute;"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:78
+msgid "Veuillez saisir votre mot de passe"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:84
+#: application/controllers/UtilisateurController.php:139
+msgid "Veuillez saisir votre identifiant"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:99
+msgid "Merci de saisir votre identifiant"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:103
+msgid "Un email va &ecirc;tre envoy&eacute; aux administrateurs pour signaler votre demande de mot de passe."
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:118
+msgid "Aucun administrateur n'a configur&eacute; d'adresse email. Merci de contacter un administrateur par un autre moyen."
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:121
+msgid "Recuperation de mot de passe"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:122
+msgid "Une demande de r&eacute;cup&eacute;ration de mot de passe a &eacute;t&eacute; effectu&eacute;e par l'utilisateur : "
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:125
+msgid "R&eacute;cup&eacute;ration de mot de passe de "
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:160
+#: application/controllers/UtilisateurController.php:364
+msgid "Voulez vous vraiment supprimer"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:161
+msgid "Supprimer"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:165
+#: application/controllers/UtilisateurController.php:189
+#: application/controllers/UtilisateurController.php:369
+msgid "Email"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:167
+#: application/controllers/UtilisateurController.php:194
+#: application/controllers/UtilisateurController.php:372
+msgid "Template utilis&eacute;"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:169
+#: application/controllers/UtilisateurController.php:199
+#: application/controllers/UtilisateurController.php:380
+msgid "Superviseur"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:170
+#: application/controllers/UtilisateurController.php:200
+#: application/controllers/UtilisateurController.php:381
+msgid "Administrateur"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:171
+#: application/controllers/UtilisateurController.php:193
+#: application/controllers/UtilisateurController.php:371
+msgid "Fonction"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:172
+msgid "Derni&egrave;re connexion"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:196
+#: application/controllers/UtilisateurController.php:377
+msgid "Confirmation de mot de passe"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:201
+#: application/controllers/UtilisateurController.php:382
+msgid "Navigateur"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:202
+#: application/controllers/UtilisateurController.php:383
+msgid "Tablette"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:203
+#: application/controllers/UtilisateurController.php:384
+msgid "Borne"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:222
+#: application/controllers/UtilisateurController.php:400
+msgid "Veuillez renseigner un pr&eacute;nom valide"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:228
+#: application/controllers/UtilisateurController.php:405
+msgid "Veuillez renseigner un nom valide"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:234
+#: application/controllers/UtilisateurController.php:410
+msgid "Veuillez renseigner un email valide"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:240
+#: application/controllers/UtilisateurController.php:415
+msgid "Veuillez renseigner un identifiant valide"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:245
+#: application/controllers/UtilisateurController.php:420
+msgid "Votre identifiant est d&eacute;j&agrave; utilis&eacute;. Merci d'en choisir un autre"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:253
+#: application/controllers/UtilisateurController.php:426
+msgid "Veuillez saisir un mot de passe de plus de 6 caract&egrave;res"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:257
+msgid "Veuillez renseigner un mot de passe"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:261
+#: application/controllers/UtilisateurController.php:430
+msgid "Veuillez confirmer votre mot de passe"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:265
+#: application/controllers/UtilisateurController.php:433
+msgid "Les mots de passes renseign&eacute;s ne sont pas identiques"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:271
+#: application/controllers/UtilisateurController.php:439
+msgid "La fonction que vous avez choisi n'existe pas"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:277
+#: application/controllers/UtilisateurController.php:445
+msgid "Le template que vous avez choisi n'existe pas"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:311
+#: application/controllers/UtilisateurController.php:479
+msgid "Erreur lors du d&eacute;placement du fichier"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:311
+#: application/controllers/UtilisateurController.php:479
+msgid "vers"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:320
+msgid "Cr&eacute;ation de l'utilisateur "
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:365
+msgid "Supprimer l'utilisateur"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:374
+msgid "Supprimer la photo"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:375
+msgid "Editer un utilisateur"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:510
+msgid "Edition de l'utilisateur "
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:519
+#: application/controllers/UtilisateurController.php:552
+msgid "Param&egrave;tre invalide : Identifiant de l'utilisateur inconnu"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:557
+msgid "Un param&egrave;tre est manquant pour effectuer l'action demand&eacute;e : identifiant de l'utilisateur"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:584
+msgid "Impossible de supprimer cet utilisateur car il poss&egrave;de des pr&eacute;parations en attente ou en cours."
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:594
+msgid "Suppression de l'utilisateur "
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:601
+msgid "Impossible de supprimmer un utilisateur"
+msgstr ""
+
+#: application/controllers/UtilisateurController.php:628
+msgid "Deconnexion de "
+msgstr ""
+
+#: application/controllers/ZoneController.php:31
+msgid "Zones"
+msgstr ""
+
+#: application/controllers/ZoneController.php:34
+msgid "Libell&eacute; de la zone"
+msgstr ""
+
+#: application/controllers/ZoneController.php:98
+msgid "Cr&eacute;er une zone"
+msgstr ""
+
+#: application/controllers/ZoneController.php:101
+#: application/controllers/ZoneController.php:174
+msgid "Couleur"
+msgstr ""
+
+#: application/controllers/ZoneController.php:104
+#: application/controllers/ZoneController.php:179
+msgid "Choisir une autre couleur"
+msgstr ""
+
+#: application/controllers/ZoneController.php:131
+#: application/controllers/ZoneController.php:210
+msgid "Veuillez renseigner une couleur valide"
+msgstr ""
+
+#: application/controllers/ZoneController.php:137
+msgid "Cr&eacute;ation de la zone "
+msgstr ""
+
+#: application/controllers/ZoneController.php:171
+msgid "Editer une zone"
+msgstr ""
+
+#: application/controllers/ZoneController.php:182
+msgid "Voulez vous vraiment supprimer la zone"
+msgstr ""
+
+#: application/controllers/ZoneController.php:183
+msgid "Supprimer la zone"
+msgstr ""
+
+#: application/controllers/ZoneController.php:184
+msgid "magasin"
+msgstr ""
+
+#: application/controllers/ZoneController.php:224
+msgid "Edition de la zone "
+msgstr ""
+
+#: application/controllers/ZoneController.php:255
+msgid "Afficher"
+msgstr ""
+
+#: application/controllers/ZoneController.php:256
+msgid "S&eacute;lectionner tout"
+msgstr ""
+
+#: application/controllers/ZoneController.php:257
+msgid "Affectation des rayons"
+msgstr ""
+
+#: application/controllers/ZoneController.php:265
+msgid "Affectation des zones"
+msgstr ""
+
+#: application/controllers/ZoneController.php:266
+msgid "Afficher le rayon"
+msgstr ""
+
+#: application/controllers/ZoneController.php:267
+msgid "Merci de saisir un &eacute;tage pour obtenir la liste des zones"
+msgstr ""
+
+#: application/controllers/ZoneController.php:349
+msgid "Veuillez choisir un rayon &agrave; affecter"
+msgstr ""
+
+#: application/controllers/ZoneController.php:374
+msgid "Affectation de rayons dans la zone "
+msgstr ""
+
+#: application/controllers/ZoneController.php:405
+msgid "Il est impossible de supprimer la zone par d&eacute;faut"
+msgstr ""
+
+#: application/controllers/ZoneController.php:416
+msgid "Suppression de la zone "
+msgstr ""
+
+#: application/kernel/Common.php:419
+#: application/kernel/Common.php:430
+msgid "Le fichier de sauvegarde n'a pas &eacute;t&eacute; trouv&eacute;. Veuillez vous assurer que la mod&eacute;lisation a bien &eacute;t&eacute; sauvegard&eacute;e"
+msgstr ""
+
+#: application/kernel/Common.php:820
+#: application/kernel/Common.php:857
+#: application/kernel/Common.php:886
+msgid "Erreur lors de la lecture du fichier "
+msgstr ""
+
+#: application/kernel/Common.php:823
+#: application/kernel/Common.php:860
+#: application/kernel/Common.php:890
+msgid "Param&egrave;tre(s) manquant(s) dans le fichier "
+msgstr ""
+
+#: application/kernel/Common.php:824
+#: application/kernel/Common.php:825
+#: application/kernel/Common.php:826
+#: application/kernel/Common.php:827
+#: application/kernel/Common.php:828
+#: application/kernel/Common.php:861
+#: application/kernel/Common.php:862
+#: application/kernel/Common.php:863
+#: application/kernel/Common.php:864
+#: application/kernel/Common.php:865
+#: application/kernel/Common.php:891
+#: application/kernel/Common.php:894
+#: application/kernel/Common.php:895
+#: application/kernel/Common.php:896
+#: application/kernel/Common.php:897
+#: application/kernel/Common.php:898
+#: application/kernel/Common.php:899
+#: application/kernel/Common.php:900
+#: application/kernel/Common.php:901
+#: application/kernel/Common.php:902
+#: application/kernel/Common.php:903
+#: application/kernel/Common.php:904
+msgid "Param&egrave;tre non renseign&eacute; dans le fichier "
+msgstr ""
+
+#: application/kernel/Common.php:824
+msgid " : HEURE_DEBUT"
+msgstr ""
+
+#: application/kernel/Common.php:825
+msgid " : HEURE_FIN"
+msgstr ""
+
+#: application/kernel/Common.php:826
+msgid " : JOURNEE_DEBUT"
+msgstr ""
+
+#: application/kernel/Common.php:827
+msgid " : JOURNEE_FIN"
+msgstr ""
+
+#: application/kernel/Common.php:828
+msgid " : MODE_CRENEAU"
+msgstr ""
+
+#: application/kernel/Common.php:846
+#: application/kernel/Common.php:876
+#: application/kernel/Common.php:946
+msgid "Le fichier "
+msgstr ""
+
+#: application/kernel/Common.php:846
+#: application/kernel/Common.php:876
+#: application/kernel/Common.php:946
+msgid " n'existe pas !"
+msgstr ""
+
+#: application/kernel/Common.php:861
+msgid " : NB_COMMANDES_MAX"
+msgstr ""
+
+#: application/kernel/Common.php:862
+msgid " : TEMPS_PREPA_MAX"
+msgstr ""
+
+#: application/kernel/Common.php:863
+msgid " : NB_REFERENCES_MAX"
+msgstr ""
+
+#: application/kernel/Common.php:864
+msgid " : NB_ARTICLES_MAX"
+msgstr ""
+
+#: application/kernel/Common.php:865
+msgid " : POIDS_MAX"
+msgstr ""
+
+#: application/kernel/Common.php:891
+msgid " : APPLICATION_PATH"
+msgstr ""
+
+#: application/kernel/Common.php:894
+msgid " : APPLICATION_PREFIXE"
+msgstr ""
+
+#: application/kernel/Common.php:895
+msgid " : NOMBRE_ETAGES"
+msgstr ""
+
+#: application/kernel/Common.php:896
+msgid " : FUSEAU_HORAIRE"
+msgstr ""
+
+#: application/kernel/Common.php:897
+msgid " : LANGUAGE"
+msgstr ""
+
+#: application/kernel/Common.php:898
+msgid " : ABBREVIATION_LANGUAGE"
+msgstr ""
+
+#: application/kernel/Common.php:899
+msgid " : DELAI_AVANT_LIVRAISON"
+msgstr ""
+
+#: application/kernel/Common.php:900
+msgid " : DEVISE"
+msgstr ""
+
+#: application/kernel/Common.php:901
+msgid " : FINESSE_UTILISEE"
+msgstr ""
+
+#: application/kernel/Common.php:902
+msgid " : LARGEUR_ETAGERE"
+msgstr ""
+
+#: application/kernel/Common.php:903
+msgid " : RESULTAT_PAR_PAGE"
+msgstr ""
+
+#: application/kernel/Common.php:904
+msgid " : TEMPS_MOYEN_ACCES_PRODUIT"
+msgstr ""
+
+#: application/kernel/Common.php:1074
+msgid "Bon de preparation"
+msgstr ""
+
+#: application/kernel/Common.php:1114
+msgid "Pr&eacute;paration n&deg;"
+msgstr ""
+
+#: application/kernel/Common.php:1128
+msgid "Date de fin de pr&eacute;pration"
+msgstr ""
+
+#: application/kernel/Common.php:1148
+msgid "Dur&eacute;e approximative "
+msgstr ""
+
+#: application/kernel/Common.php:1181
+msgid "Article"
+msgstr ""
+
+#: application/kernel/Common.php:1182
+msgid "Code_EAN"
+msgstr ""
+
+#: application/kernel/Common.php:1184
+msgid "Geo"
+msgstr ""
+
+#: application/kernel/Common.php:1185
+msgid "Qte"
+msgstr ""
+
+#: application/kernel/Common.php:1186
+msgid "Prix_TTC"
+msgstr ""
+
+#: application/kernel/PDO.php:33
+msgid "Param&egrave;tre manquant dans le fichier "
+msgstr ""
+
+#: application/kernel/PDO.php:34
+msgid " : DB_NAME"
+msgstr ""
+
+#: application/kernel/PDO.php:35
+msgid " : DB_DSN"
+msgstr ""
+
+#: application/kernel/PDO.php:36
+msgid " : DB_USER"
+msgstr ""
+
+#: application/kernel/Router.php:91
+msgid "L'action demand&eacute;e n'existe pas."
+msgstr ""
+
+#: application/models/Planning.php:118
+msgid "Planning"
+msgstr ""
+
+#: application/models/Produit.php:815
+#: application/models/Produit.php:857
+msgid "Par d&eacute;faut"
+msgstr ""
+
+#: application/models/Produit.php:825
+msgid "Etagere"
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:64
+#: flux/in/commandes/commandes_recup.php:77
+#: flux/in/commandes/commandes_recup.php:86
+#: flux/in/commandes/commandes_recup.php:134
+#: flux/in/commandes/commandes_recup.php:162
+#: flux/in/commandes/commandes_recup.php:173
+#: flux/in/commandes/commandes_recup.php:209
+#: flux/in/commandes/commandes_recup.php:215
+msgid "Par : Script r&eacute;cup&eacute;ration des commandes"
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:64
+#: flux/in/produits/produits_recup.php:64
+msgid "Sauvegarde des tables : "
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:64
+#: flux/in/commandes/commandes_recup.php:209
+#: flux/in/produits/produits_recup.php:64
+msgid "dans le fichier "
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:77
+#: flux/in/produits/produits_recup.php:185
+msgid "R&eacute;cup&eacute;ration du fichier : "
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:86
+msgid "Le fichier"
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:86
+msgid "contenant la commande"
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:86
+msgid "existe d&eacute;j&agrave; dans la base de donn&eacute;es et a &eacute;t&eacute; rejet&eacute;"
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:134
+msgid "Enregistrement du client : "
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:134
+#: flux/in/commandes/commandes_recup.php:162
+msgid "dans la base de donn&eacute;es"
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:162
+msgid "Enregistrement de la commande : "
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:173
+msgid "Le produit"
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:173
+msgid "n'est pas pr&eacute;sent dans la base de donn&eacute;es"
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:209
+msgid "Compression des fichiers : "
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:215
+msgid "Suppression des fichiers : "
+msgstr ""
+
+#: flux/in/commandes/commandes_recup.php:215
+msgid "depuis l'emplacement "
+msgstr ""
+
+#: flux/in/produits/produits_recup.php:64
+#: flux/in/produits/produits_recup.php:179
+#: flux/in/produits/produits_recup.php:185
+#: flux/in/produits/produits_recup.php:186
+msgid "Par : Script r&eacute;cup&eacute;ration des produits"
+msgstr ""
+
+#: flux/in/produits/produits_recup.php:179
+msgid "Erreur ajout code EAN "
+msgstr ""
+
+#: flux/in/produits/produits_recup.php:179
+msgid " pour le produit : "
+msgstr ""
+
+#: flux/in/produits/produits_recup.php:179
+msgid "Le code EAN est utilis&eacute; par un autre produit."
+msgstr ""
+
+#: flux/in/produits/produits_recup.php:185
+msgid " contenant "
+msgstr ""
+
+#: flux/in/produits/produits_recup.php:185
+msgid " produit(s)."
+msgstr ""
+
+#: flux/in/produits/produits_recup.php:186
+msgid "Nombre d'insertions : "
+msgstr ""
+
+#: flux/in/produits/produits_recup.php:186
+msgid "Nombre de mise &agrave; jour : "
+msgstr ""
+
