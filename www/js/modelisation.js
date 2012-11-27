@@ -569,6 +569,13 @@ function rayon_as_draggable(div){
 // ! \\ ATTENTION, la mise en forme des informations est directement utilisée dans le script php, si vous vous aventurez
 // ! \\ à changer la méthode de sauvegarde, pensez à le faire aussi dans le modelisationController.php 
 
+function from_DOM_id_to_DB_id (id) {
+    var a = id.split ('_');
+    // TODO validate a.length
+    // TODO validate a[0] is "obs", "id", ...
+    return a [1];
+}
+
 function display_children_position(node){ 
 
 	   $(node).children('.'+classRayonDraggable).each(function(){
@@ -577,11 +584,11 @@ function display_children_position(node){
 		var sens = $(this).attr('sens');
 		var type = $(this).attr('type_ray');
 		
-		var id 		 = $(this).attr('id').split('_');
+		var id = from_DOM_id_to_DB_id ($(this).attr('id'));
 		if(currentHtml != '')
-			$("#"+idRes).html(currentHtml+";" + "rayon" + "-" + id[1] + "-"+$(this).attr('top_deb')+"-"+ $(this).attr('left_deb') + "-"+sens+"-"+ $(this).attr('hauteur_ray')+"-"+ $(this).attr('largeur_ray')+"-"+type);
+			$("#"+idRes).html(currentHtml+";" + "rayon" + "-" + id + "-"+$(this).attr('top_deb')+"-"+ $(this).attr('left_deb') + "-"+sens+"-"+ $(this).attr('hauteur_ray')+"-"+ $(this).attr('largeur_ray')+"-"+type);
 		else
-			$("#"+idRes).html("rayon" + "-" + id[1] + "-"+ $(this).attr('top_deb')+"-"+$(this).attr('left_deb')  + "-"+sens+"-"+ $(this).attr('hauteur_ray')+"-"+ $(this).attr('largeur_ray')+"-"+type);
+			$("#"+idRes).html("rayon" + "-" + id + "-"+ $(this).attr('top_deb')+"-"+$(this).attr('left_deb')  + "-"+sens+"-"+ $(this).attr('hauteur_ray')+"-"+ $(this).attr('largeur_ray')+"-"+type);
 	  });
 	  
 	  $(node).children('.'+classObstacle).each(function(){
@@ -590,10 +597,11 @@ function display_children_position(node){
 		var height = parseInt($(this).css("height"));
 		var width = parseInt($(this).css("width"));  
 		var libelle = $(this).attr('libelle'); 
+		var id = from_DOM_id_to_DB_id ($(this).attr('id'));
 		if(currentHtml != '')
-			$("#"+idRes).html(currentHtml+";" + "obstacle" + "-" + $(this).attr('id') + "-"+ parseInt(position.top)+"-"+ parseInt(position.left)+"-"+width+"-"+height+"-"+libelle);
+			$("#"+idRes).html(currentHtml+";" + "obstacle" + "-" + id + "-"+ parseInt(position.top)+"-"+ parseInt(position.left)+"-"+width+"-"+height+"-"+libelle);
 		else
-			$("#"+idRes).html("obstacle" + "-" +$(this).attr('id') + "-"+ parseInt(position.top)+"-"+ parseInt(position.left)+"-"+width+"-"+height+"-"+libelle);
+			$("#"+idRes).html("obstacle" + "-" +id + "-"+ parseInt(position.top)+"-"+ parseInt(position.left)+"-"+width+"-"+height+"-"+libelle);
 	  });
 	  
 	  $(node).children('.'+classCaisse).each(function(){
