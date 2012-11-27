@@ -76,7 +76,7 @@ class EtageController extends BaseController {
 				if($error_message == ''){	
 					$etage = Etage::create(parent::$_pdo, $libelle, 500, 700, 0, 0, 0, 0);
 					Zone::create(parent::$_pdo, $etage -> getIdetage(), 'magasin');
-					Obstacle::create(parent::$_pdo, $etage, 25, 25, 50, 80, 'caisse', 'caisse');
+					Obstacle::create(parent::$_pdo, $etage, 25, 25, 50, 80, 'caisse', 'caisse', '4B92E3');
 					$log 	= '[' . date('d/m/Y:H:i:s') . '] -- ' . gettext('Cr&eacute;ation d\'un &eacute;tage par ') .$_SESSION['user_login']."\r\n";
 					$logFile = '../application/logs/'.date('m-Y').'-etage.log';
 					writeLog($log, $logFile);
