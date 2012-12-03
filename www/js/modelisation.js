@@ -21,7 +21,6 @@ $(document).ready(function() {
 var classEtage 			= "etage";
 var classCaisse 		= "caisse";
 var idRes 				= "block_position";
-var idResCheckpoint 	= "res_checkpoints";
 var idSuppr_obs 		= "obstacle_suppr";
 var idZoneDepart 		= "zone_depart";
 var idZoneArrive 		= "zone_arrive";
