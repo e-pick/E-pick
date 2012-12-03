@@ -95,8 +95,8 @@ $('#sauvegarder').click(function() {
 				type: "POST", 
 				url: document.location.href,  	   
 				data: {  
-						block_position: $('#block_position').val(),
-						obstacle_suppr: $('#obstacle_suppr').val(),
+						block_position: $("#"+idRes).val(),
+						obstacle_suppr: $("#"+idSuppr_obs).val(),
 						valider: $('#valider').val()
 				},
 				success: function(dat){  //au succes, on grise la ligne, et on ferme le popup automatiquement trois secondes après
@@ -139,8 +139,8 @@ function save_positions(){
 			type: "POST", 
 			url: document.location.href,  	   
 			data: {  
-					block_position: $('#block_position').val(),
-					obstacle_suppr: $('#obstacle_suppr').val(),				
+					block_position: $("#"+idRes).val(),
+					obstacle_suppr: $("#"+idSuppr_obs).val(),
 					save_position: 'save_position'
 			},
 			success: function(dat){ 
