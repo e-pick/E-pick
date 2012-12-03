@@ -627,7 +627,7 @@ function display_children_position(node){
 		 if(currentHtml != '')
 			$("#"+idRes).html(currentHtml+";etage-" + etage + "-" + width + "-" + height+"-"+parseInt(ptd.top)+"-"+parseInt(ptd.left)+"-"+parseInt(pta.top)+"-"+parseInt(pta.left));
 		else
-			$("#"+idRes).html("etage-" +$(node).attr('id') + "-"+width+"-"+height+"-"+parseInt(ptd.top)+"-"+parseInt(ptd.left)+"-"+parseInt(pta.top)+"-"+parseInt(pta.left));					
+			$("#"+idRes).html("etage-" + etage + "-"+width+"-"+height+"-"+parseInt(ptd.top)+"-"+parseInt(ptd.left)+"-"+parseInt(pta.top)+"-"+parseInt(pta.left));					
 }
 
  
