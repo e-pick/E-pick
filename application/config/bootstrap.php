@@ -239,5 +239,3 @@ $smarty->assign('echelle'		, ECHELLE_1M);
 require_once (applicationDir.'application/kernel/PDO.php');
 require_once (applicationDir.'application/kernel/Router.php');
 Router::setSmarty($smarty);
-?>
-
