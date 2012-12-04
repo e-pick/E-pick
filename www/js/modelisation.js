@@ -63,6 +63,19 @@ else
 /*********************************************/
      
 
+function apply_ids_received_from_DB (dat) {
+	console.log ('IDs received from DB "' + dat + '"');
+
+	var id = dat.split(';');
+	var compteur = 0;
+	$('.'+classEtage).children('.'+classObstacle).each(function(){
+		if ($(this).attr('id') == 0){
+			$(this).attr('id',id[compteur]);
+			compteur++;
+		}
+	});
+}
+
 $('#sauvegarder').click(function() {  
 	save = true;
 	$('#etape').children('li').each(function(){ //on réinitialise la box pour l'affiche de l'état de la sauvegarde
@@ -100,14 +113,7 @@ $('#sauvegarder').click(function() {
 				},
 				success: function(dat){  //au succes, on grise la ligne, et on ferme le popup automatiquement trois secondes après
 						modification = false;
-						var id = dat.split(';');
-						var compteur = 0;
-						$('.'+classEtage).children('.'+classObstacle).each(function(){
-							if ($(this).attr('id') == 0){
-								$(this).attr('id',id[compteur]);
-								compteur++;
-							}
-						});
+						apply_ids_received_from_DB (dat);
 						$("#"+idRes).html('');
 						$("#"+idSuppr_obs).html('');
 						$('li#op_2').css('color','#999');
@@ -144,14 +150,7 @@ function save_positions(){
 			},
 			success: function(dat){ 
 					modification = false;
-					var id = dat.split(';');
-					var compteur = 0;
-					$('.'+classEtage).children('.'+classObstacle).each(function(){
-						if ($(this).attr('id') == 0){
-							$(this).attr('id',id[compteur]);
-							compteur++;
-						}
-					});
+					apply_ids_received_from_DB (dat);
 					$("#"+idRes).html('');
 					$("#"+idSuppr_obs).html('');
 					$("#save_auto p").fadeIn("fast");
