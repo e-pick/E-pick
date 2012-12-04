@@ -882,7 +882,8 @@ class ModelisationController extends BaseController {
 		foreach($arrayObstaclesToDelete as $idobstacle){
 			if($idobstacle != 0 && $idobstacle != ''){
 				$obstacle = Obstacle::load(parent::$_pdo,$idobstacle);
-				$obstacle->delete();	
+				if ($obstacle != null)
+					$obstacle->delete();
 			}
 		}
 		
