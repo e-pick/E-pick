@@ -68,7 +68,7 @@ function convert_DB_id_into_DOM_id (kind, id) {
 }
 
 function apply_ids_received_from_DB (dat) {
-	console.log ('IDs received from DB "' + dat + '"');
+	//console.log ('IDs received from DB "' + dat + '"');
 
 	var id = dat.split(';');
 	var compteur = 0;
