@@ -568,8 +568,17 @@ function rayon_as_draggable(div){
 // ! \\ à changer la méthode de sauvegarde, pensez à le faire aussi dans le modelisationController.php 
 
 function from_DOM_id_to_DB_id (id) {
+    if (id == '0')
+        // A brand new item that the DB has not yet assigned an ID to
+        return id;
+
     var a = id.split ('_');
-    // TODO validate a.length
+
+    if (a.length != 2) {
+        console.log ('Malformed DOM id "' + id + '"');
+        return id;
+    }
+
     // TODO validate a[0] is "obs", "id", ...
     return a [1];
 }
