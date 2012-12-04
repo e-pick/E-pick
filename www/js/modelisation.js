@@ -63,14 +63,18 @@ else
 /*********************************************/
      
 
+function convert_DB_id_into_DOM_id (kind, id) {
+	return kind + '_' + id;
+}
+
 function apply_ids_received_from_DB (dat) {
 	console.log ('IDs received from DB "' + dat + '"');
 
 	var id = dat.split(';');
 	var compteur = 0;
 	$('.'+classEtage).children('.'+classObstacle).each(function(){
-		if ($(this).attr('id') == 0){
-			$(this).attr('id',id[compteur]);
+		if ($(this).attr('id') == '0'){
+			$(this).attr('id', convert_DB_id_into_DOM_id ('obs', id[compteur]));
 			compteur++;
 		}
 	});
@@ -674,7 +678,9 @@ function suppr_obstacle(){ //suppression d'un obstacle
 	$(".suppr_obstacle").click(function() {   
 		if(confirm('Etes-vous sûr de vouloir supprimer l\'obstacle')){
 			var currentHtml = $("#"+idSuppr_obs).html();
-			var idobstacle 	= $(this).parent().attr('id');
+
+			// TODO would be nice not bothering DB to remove ID 0
+			var idobstacle 	= from_DOM_id_to_DB_id ($(this).parent().attr('id'));
 								
 			 if(currentHtml != '')
 				$("#"+idSuppr_obs).html(currentHtml+";" +idobstacle);
