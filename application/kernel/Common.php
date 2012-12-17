@@ -12,6 +12,9 @@
 	require_once(applicationDir.'libraries/zip.lib.php') ; // librairie ZIP
 	require_once(applicationDir.'libraries/fpdf/fpdf.php');
   
+	define ('INFINITE_DISTANCE', 1000000);
+		// Pour le calcul des plus courts chemins entre tous les sommets
+
 	/**
 	 *
 	 * Fonction qui permet de sauvegarder les tables de la base de données

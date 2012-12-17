@@ -5,6 +5,7 @@ class Floyd {
 	var $matrice = array();
 	var $previousNode = array();
 	var $infiniteDistance = 1000000;
+		// TODO use INFINITE_DISTANCE define
 
 	function floyd($matrice, $infiniteDistance){
 		$this -> infiniteDistance = $infiniteDistance;
