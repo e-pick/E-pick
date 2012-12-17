@@ -223,6 +223,7 @@ class CommandeController extends BaseController {
 					throw new Exception(gettext('Param&egrave;tre invalide : idCommande'),5);
 					
 				$etagesCommande = Commande::getEtagesCommande(parent::$_pdo, $commande->getIdcommande());
+				// TODO if (!count($etagesCommande))
 				if (($idEtage != '')) {
 					$etageSelectionne = $idEtage;
 				}
