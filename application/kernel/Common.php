@@ -15,6 +15,11 @@
 	define ('INFINITE_DISTANCE', 1000000);
 		// Pour le calcul des plus courts chemins entre tous les sommets
 
+	define ('PRIO_DEBUT', 3);
+	define ('PRIO_NORMAL', 2);
+	define ('PRIO_FIN', 1);
+		// TODO refactor with these constants everywhere
+
 	/**
 	 *
 	 * Fonction qui permet de sauvegarder les tables de la base de données
