@@ -793,9 +793,15 @@ class AffectationController extends BaseController {
 							$temps_estime 	= 0; 
 							foreach(array_unique($idZones[$etage]) as $id){
 								if($value > 0){
-									$temps = Temps_Preparation::selectByCommandeAndZone(parent::$_pdo,$commande,Zone::load(parent::$_pdo,$id))->getDuree();
-									if ($id == $zoneMagasin->getIdzone()) $temps += $tempsPdtsNonGeoloc;
-									$temps_estime += $temps; 
+									$z = Zone::load(parent::$_pdo,$id);
+									$tp = Temps_Preparation::selectByCommandeAndZone(parent::$_pdo,$commande,$z);
+									if ($tp !== null) {
+										$temps = $tp->getDuree();
+										if ($id == $zoneMagasin->getIdzone()) $temps += $tempsPdtsNonGeoloc;
+										$temps_estime += $temps;
+									} else {
+										// TODO
+									}
 								}
 
 							}
