@@ -479,130 +479,84 @@
 						if($etage->getIdetage() == $idEtage){
 						
 							switch ($priorite[0]){
-								case 3:
+								case PRIO_DEBUT:
 									if (in_array($key, $debutkeys)){
 										/* Si le produit se trouve dans une étagère déjà traitée */
 										$debut[$key][2][] = $ligne;
 									}
 									else {
-										if (count($debutkeys) > 0){
-											if (isset($matrice_distance[$debutkeys[count($debutkeys)-1]][$key])){
-												if($matrice_distance[$debutkeys[count($debutkeys)-1]][$key] < 1000000){
-													$debutkeys[] = $key;
-													$debut[$key] = array($idrayon, $idsegment, array($ligne));
-												}
-												else{
-													/* Produit inaccessible */
-													$inaccessibles[] = array($produit,$rayon,$ligne);
-												}
+										if (count($debutkeys) > 0)
+											$k = $debutkeys[count($debutkeys)-1];
+										else
+											$k = $keys[0];
+
+										if (isset($matrice_distance[$k][$key])){
+											if($matrice_distance[$k][$key] < 1000000){
+												$debutkeys[] = $key;
+												$debut[$key] = array($idrayon, $idsegment, array($ligne));
 											}
 											else{
-												/* Produit se trouvant dans un rayon non encore modélisé */
-												$nonModelises[] = array($produit,$ligne);
+												/* Produit inaccessible */
+												$inaccessibles[] = array($produit,$rayon,$ligne);
 											}
 										}
 										else{
-											if (isset($matrice_distance[$keys[0]][$key])){
-												
-												if($matrice_distance[$keys[0]][$key] < 1000000){
-													$debutkeys[] = $key;
-													$debut[$key] = array($idrayon, $idsegment, array($ligne));
-												}
-												else{
-													/* Produit inaccessible */
-													$inaccessibles[] = array($produit,$rayon,$ligne);
-												}
-											}
-											else{
-												/* Produit se trouvant dans un rayon non encore modélisé */
-												$nonModelises[] = array($produit,$ligne);
-											}
+											/* Produit se trouvant dans un rayon non encore modélisé */
+											$nonModelises[] = array($produit,$ligne);
 										}
-										
 									}
 									break;
-								case 2:
-									
+								case PRIO_NORMAL:
 									if (in_array($key, $normalkeys)){
 										/* Si le produit se trouve dans une étagère déjà traitée */
 										$normal[$key][2][] = $ligne;
-										
 									}
 									else {
-										
-										if (count($normalkeys) > 0){
-		
-											if(isset($matrice_distance[$normalkeys[count($normalkeys)-1]][$key])){
-											
-												if($matrice_distance[$normalkeys[count($normalkeys)-1]][$key] < 1000000){
-													$normalkeys[] = $key;
-													$normal[$key] = array($idrayon, $idsegment, array($ligne));
-												}
-												else{
-													/* Produit inaccessible */
-													$inaccessibles[] = array($produit,$rayon,$ligne);
-												}
+										if (count($normalkeys) > 0)
+											$k = $normalkeys[count($normalkeys)-1];
+										else
+											$k = $keys[0];
+
+										if (isset($matrice_distance[$k][$key])){
+											if($matrice_distance[$k][$key] < 1000000){
+												$normalkeys[] = $key;
+												$normal[$key] = array($idrayon, $idsegment, array($ligne));
 											}
 											else{
-												/* Produit se trouvant dans un rayon non encore modélisé */
-												$nonModelises[] = array($produit,$ligne);
+												/* Produit inaccessible */
+												$inaccessibles[] = array($produit,$rayon,$ligne);
 											}
 										}
 										else{
-											if (isset($matrice_distance[$keys[0]][$key])){
-												if($matrice_distance[$keys[0]][$key] < 1000000){
-													$normalkeys[] = $key;
-													$normal[$key] = array($idrayon, $idsegment, array($ligne));
-												}
-												else{
-													/* Produit inaccessible */
-													$inaccessibles[] = array($produit,$rayon,$ligne);
-												}
-											}
-											else{
-												/* Produit se trouvant dans un rayon non encore modélisé */
-												$nonModelises[] = array($produit,$ligne);
-											}
+											/* Produit se trouvant dans un rayon non encore modélisé */
+											$nonModelises[] = array($produit,$ligne);
 										}
 									}
 									break;
-								case 1:
+								case PRIO_FIN:
 									if (in_array($key, $finkeys)){
 										/* Si le produit se trouve dans une étagère déjà traitée */
 										$fin[$key][2][] = $ligne;
 									}
 									else {
-										if (count($finkeys) > 0){
-											if (isset($matrice_distance[$finkeys[count($finkeys)-1]][$key])){
-												if($matrice_distance[$finkeys[count($finkeys)-1]][$key] < 1000000){
-													$finkeys[] = $key;
-													$fin[$key] = array($idrayon, $idsegment, array($ligne));
-												}
-												else{
-													/* Produit inaccessible */
-													$inaccessibles[] = array($produit,$rayon,$ligne);
-												}
+										if (count($finkeys) > 0)
+											$k = $finkeys[count($finkeys)-1];
+										else
+											$k = $keys[0];
+
+										if (isset($matrice_distance[$k][$key])){
+											if($matrice_distance[$k][$key] < 1000000){
+												$finkeys[] = $key;
+												$fin[$key] = array($idrayon, $idsegment, array($ligne));
 											}
 											else{
-												/* Produit se trouvant dans un rayon non encore modélisé */
-												$nonModelises[] = array($produit,$ligne);
+												/* Produit inaccessible */
+												$inaccessibles[] = array($produit,$rayon,$ligne);
 											}
 										}
 										else{
-											if (isset($matrice_distance[$keys[0]][$key])){
-												if($matrice_distance[$keys[0]][$key] < 1000000){
-													$finkeys[] = $key;
-													$fin[$key] = array($idrayon, $idsegment, array($ligne));
-												}
-												else{
-													/* Produit inaccessible */
-													$inaccessibles[] = array($produit,$rayon,$ligne);
-												}
-											}
-											else{
-												/* Produit se trouvant dans un rayon non encore modélisé */
-												$nonModelises[] = array($produit,$ligne);
-											}
+											/* Produit se trouvant dans un rayon non encore modélisé */
+											$nonModelises[] = array($produit,$ligne);
 										}
 									}
 									break;					
