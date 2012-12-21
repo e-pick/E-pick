@@ -491,7 +491,7 @@
 											$k = $keys[0];
 
 										if (isset($matrice_distance[$k][$key])){
-											if($matrice_distance[$k][$key] < 1000000){
+											if($matrice_distance[$k][$key] < INFINITE_DISTANCE){
 												$debutkeys[] = $key;
 												$debut[$key] = array($idrayon, $idsegment, array($ligne));
 											}
@@ -518,7 +518,7 @@
 											$k = $keys[0];
 
 										if (isset($matrice_distance[$k][$key])){
-											if($matrice_distance[$k][$key] < 1000000){
+											if($matrice_distance[$k][$key] < INFINITE_DISTANCE){
 												$normalkeys[] = $key;
 												$normal[$key] = array($idrayon, $idsegment, array($ligne));
 											}
@@ -545,7 +545,7 @@
 											$k = $keys[0];
 
 										if (isset($matrice_distance[$k][$key])){
-											if($matrice_distance[$k][$key] < 1000000){
+											if($matrice_distance[$k][$key] < INFINITE_DISTANCE){
 												$finkeys[] = $key;
 												$fin[$key] = array($idrayon, $idsegment, array($ligne));
 											}

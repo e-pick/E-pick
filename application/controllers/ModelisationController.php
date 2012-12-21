@@ -165,7 +165,7 @@ class ModelisationController extends BaseController {
 				$position_points 	= array();
 					 
 				// I is the infinite distance.
-				define('I',1000000);
+				define('I', INFINITE_DISTANCE);
 //				define('I',200000000000);
 
 
@@ -459,7 +459,7 @@ class ModelisationController extends BaseController {
 				$txt_temp_exec .= "Dijkstra : " . (time()-$temp) . " secondes \n";
 				$temp = time();
 				
-				/* $floyd = new Floyd($matrice_floyd, I);
+				/* $floyd = new Floyd($matrice_floyd, INFINITE_DISTANCE);
 				$matrice_f_floyd = $floyd -> calcul();
 				$matrice_path_floyd = $floyd -> getResults();
 				
@@ -743,7 +743,7 @@ class ModelisationController extends BaseController {
 							$data 	= explode('_',$segment);
 							$idseg 	= Segment::getIdSegmentByOrder(parent::$_pdo,$data[0],$data[1]);
 							$idray 	= $data[0];								
-							if($matrice_distance[$keys[count($keys)-1]][$idray.'_'.$idseg] < 1000000){
+							if($matrice_distance[$keys[count($keys)-1]][$idray.'_'.$idseg] < INFINITE_DISTANCE){
 								$keys[] = $idray.'_'.$idseg; 
 								$object = array($idray,$idseg);
 								array_push($arraySegmentAPasser, $object);
