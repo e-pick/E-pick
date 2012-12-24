@@ -15,6 +15,10 @@
 	define ('INFINITE_DISTANCE', 1000000);
 		// Pour le calcul des plus courts chemins entre tous les sommets
 
+	define ('TAILLE_QUADRILLAGE', 200);
+		// Le quadrillage (sans rapport avec du graphisme) est un découpage de
+		// la surface d'un étage en grands carrés
+
 	define ('PRIO_DEBUT', 3);
 	define ('PRIO_NORMAL', 2);
 	define ('PRIO_FIN', 1);

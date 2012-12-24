@@ -277,7 +277,7 @@ class ModelisationController extends BaseController {
 				$quadrillagePoint = array();	
 				$quadrillageObjectTmp = $quadrillageObject;	
 				$quadrillageObject = array();	
-				$tailleQuadrillage = 300;
+				$tailleQuadrillage = 300; // TODO use TAILLE_QUADRILLAGE after understanding why 300 but 200 elsewhere!?!?
 				
 				
 				foreach($arrayCheckpoint as $point){
@@ -880,7 +880,7 @@ class ModelisationController extends BaseController {
 		// $arrayCheckpoint 		= array();
 		$arrayObjectsATester 	= array();
 		$quadrillagePoint		= array();
-		$tailleQuadrillage		= 200;
+		$tailleQuadrillage		= TAILLE_QUADRILLAGE;
 		$save = array();
 		//on continue par la suppression des obstacles, il contient les ID des obstacles à supprimer
 		//si l'id vaut 0, ça implique que c'est un obstacle qui a été créé et supprimé dans la foulée

@@ -70,7 +70,7 @@ class Matrice
 		// $arrayCheckpoint 		= array();
 		$arrayObjectsATester 	= array();
 		$quadrillagePoint		= array();
-		$tailleQuadrillage		= 200;
+		$tailleQuadrillage		= TAILLE_QUADRILLAGE;
 
 		foreach($arrayObjects as $item){ 
 			$arrayItem = explode('-',$item);	 
