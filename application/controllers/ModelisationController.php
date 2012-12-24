@@ -112,7 +112,6 @@ class ModelisationController extends BaseController {
 				$arrays 					= self::save_positions($arrayObjects,$arrayObstaclesToDelete,$largeurpoint,$hauteurpoint,$ecartrayon,$ecartrayonvirage,$currentEtage);
 				unset($arrayObjects);
 				unset($arrayObstaclesToDelete);
-				$arrayCheckpoint			= array();
 				// contient les informations pour chaque objet parser de $arrayObjects
 				$arrayObjectsATester 		= $arrays[0]; 				
 				$quadrillagePoint			= $arrays[1];
