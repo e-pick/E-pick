@@ -12,7 +12,153 @@
  */
 
 class ModelisationController extends BaseController {
+	private static function whetherIntersect ($object, $x1, $y1, $x2, $y2) {
+		$intersection	 = false;
 
+		$x1objet = $object[2];
+		$y1objet = $object[3];
+
+
+		$dObj = round(sqrt(pow(($y1objet-$y1), 2)+pow(($x1objet-$x1), 2)));
+		if($dObj <= 500){
+			$hauteur_objet = $object[0];
+			$largeur_objet = $object[1];
+
+			$sens = $object[5];
+
+			$x1objetRot = 0;
+			$y1objetRot = 0;
+			$x2objetRot = $largeur_objet;
+			$y2objetRot = $hauteur_objet;
+
+
+			$dx1 = ($x1 - $x1objet);
+			$dy1 = ($y1 - $y1objet);
+			$dx2 = ($x2 - $x1objet);
+			$dy2 = ($y2 - $y1objet);
+
+			$x1Rot = ($dx1*cos(-deg2rad($sens)) - $dy1*sin(-deg2rad($sens)));
+			$y1Rot = ($dx1*sin(-deg2rad($sens)) + $dy1*cos(-deg2rad($sens)));
+			$x2Rot = ($dx2*cos(-deg2rad($sens)) - $dy2*sin(-deg2rad($sens)));
+			$y2Rot = ($dx2*sin(-deg2rad($sens)) + $dy2*cos(-deg2rad($sens)));
+
+
+			if($x1Rot <= $x2Rot){
+				$x_inf = $x1Rot;
+				$x_sup = $x2Rot;
+			}
+			else if($x1Rot > $x2Rot){
+				$x_inf = $x2Rot;
+				$x_sup = $x1Rot;
+			}
+			if($y1Rot <= $y2Rot){
+				$y_inf = $y1Rot;
+				$y_sup = $y2Rot;
+			}
+			else if($y1Rot > $y2Rot){
+				$y_inf = $y2Rot;
+				$y_sup = $y1Rot;
+			}
+
+			if ($x1Rot == $x2Rot) {
+
+				$y_intery1 = $y1objetRot;
+				$x_intery1 = $x1Rot;
+
+				$y_intery2 = $y2objetRot;
+				$x_intery2 = $x2Rot;
+
+				if (($x_intery1 >= $x1objetRot) && ($x_intery1 <= $x2objetRot)) {
+					if(($y_intery1 <= $y_sup) && ($y_intery1 >= $y_inf)) {
+						$intersection = true;
+					}
+
+					if (($y_intery2 <= $y_sup) && ($y_intery2 >= $y_inf)) {
+							$intersection = true;
+					}
+
+					if (($y_intery1 <= $y_inf) && ($y_intery2 >= $y_sup)) {
+							$intersection = true;
+					}
+				}
+				else {
+					//pas dintersection
+				}
+
+			}
+			else if ($y1Rot == $y2Rot) {
+
+				$x_interx1 = $x1objetRot;
+				$y_interx1 = $y1Rot;
+
+				$x_interx2 = $x2objetRot;
+				$y_interx2 = $y2Rot;
+
+				if (($y_interx1 >= $y1objetRot) && ($y_interx1 <= $y2objetRot)) {
+					if(($x_interx1 <= $x_sup) && ($x_interx1 >= $x_inf)) {
+						$intersection = true;
+					}
+
+					if(($x_interx2 <= $x_sup) && ($x_interx2 >= $x_inf)) {
+						$intersection = true;
+					}
+
+					if(($x_interx1 <= $x_inf) && ($x_interx2 >= $x_sup)) {
+						$intersection = true;
+					}
+				}
+				else {
+					//pas dintersection
+				}
+
+			}
+			else {
+
+				$a = ($y2Rot - $y1Rot) / ($x2Rot - $x1Rot);
+				$b = $y1Rot - ($a * $x1Rot);
+
+				$x_interx1 = $x1objetRot;
+				$y_interx1 = ($a * $x_interx1) + $b;
+
+				$y_intery1 = $y1objetRot;
+				$x_intery1 = ($y_intery1 - $b) / $a;
+
+				$x_interx2 = $x2objetRot;
+				$y_interx2 = ($a * $x_interx2) + $b;
+
+				$y_intery2 = $y2objetRot;
+				$x_intery2 = ($y_intery2 - $b) / $a;
+
+
+				if (($y_interx1 >= $y1objetRot) && ($y_interx1 <= $y2objetRot)) {
+					if(($x_interx1 <= $x_sup) && ($x_interx1 >= $x_inf) && ($y_interx1 <= $y_sup) && ($y_interx1 >= $y_inf)) {
+						$intersection = true;
+					}
+				}
+				if (($x_intery1 >= $x1objetRot) && ($x_intery1 <= $x2objetRot)) {
+					if(($x_intery1 <= $x_sup) && ($x_intery1 >= $x_inf) && ($y_intery1 <= $y_sup) && ($y_intery1 >= $y_inf)) {
+						$intersection = true;
+					}
+				}
+				if (($y_interx2 >= $y1objetRot) && ($y_interx2 <= $y2objetRot)) {
+					if(($x_interx2 <= $x_sup) && ($x_interx2 >= $x_inf) && ($y_interx2 <= $y_sup) && ($y_interx2 >= $y_inf)) {
+						$intersection = true;
+					}
+				}
+				if (($x_intery2 >= $x1objetRot) && ($x_intery2 <= $x2objetRot)) {
+					if(($x_intery2 <= $x_sup) && ($x_intery2 >= $x_inf) && ($y_intery2 <= $y_sup) && ($y_intery2 >= $y_inf)) {
+						$intersection = true;
+					}
+				}
+				if (($x_inf >= $x1objetRot) && ($x_inf <= $x2objetRot) && ($x_sup <= $x2objetRot) && ($x_sup >= $x1objetRot) && ($y_inf >= $y1objetRot) && ($y_inf <= $y2objetRot) && ($y_sup >= $y1objetRot) && ($y_sup <= $y2objetRot)) {
+					$intersection = true;
+				}
+
+			}
+		}
+
+		return $intersection;
+	}
 	
 	public static function index(){
 		if(Utilisateur::isAllowed(parent::$_pdo,PROFIL_SUPERVISEUR)){
@@ -264,150 +410,10 @@ class ModelisationController extends BaseController {
 						$d = round(sqrt(pow(($y2-$y1), 2)+pow(($x2-$x1), 2)));
 						if($d <= 200){
 
-							foreach($arrayObjectsATester as $object){ 
-								$x1objet = $object[2];
-								$y1objet = $object[3];
-								
-								
-								$dObj = round(sqrt(pow(($y1objet-$y1), 2)+pow(($x1objet-$x1), 2)));
-								if($dObj <= 500){
-									$hauteur_objet = $object[0];
-									$largeur_objet = $object[1];
-									
-									$sens = $object[5];
-									
-									$x1objetRot = 0;
-									$y1objetRot = 0;
-									$x2objetRot = $largeur_objet;
-									$y2objetRot = $hauteur_objet;
-									
-									
-									$dx1 = ($x1 - $x1objet);
-									$dy1 = ($y1 - $y1objet);
-									$dx2 = ($x2 - $x1objet);
-									$dy2 = ($y2 - $y1objet);
-
-									$x1Rot = ($dx1*cos(-deg2rad($sens)) - $dy1*sin(-deg2rad($sens)));
-									$y1Rot = ($dx1*sin(-deg2rad($sens)) + $dy1*cos(-deg2rad($sens)));
-									$x2Rot = ($dx2*cos(-deg2rad($sens)) - $dy2*sin(-deg2rad($sens)));
-									$y2Rot = ($dx2*sin(-deg2rad($sens)) + $dy2*cos(-deg2rad($sens)));
-														
-									
-									if($x1Rot <= $x2Rot){
-										$x_inf = $x1Rot;
-										$x_sup = $x2Rot;
-									}									
-									else if($x1Rot > $x2Rot){
-										$x_inf = $x2Rot;
-										$x_sup = $x1Rot;
-									}
-									if($y1Rot <= $y2Rot){
-										$y_inf = $y1Rot;
-										$y_sup = $y2Rot;
-									}									
-									else if($y1Rot > $y2Rot){
-										$y_inf = $y2Rot;
-										$y_sup = $y1Rot;
-									}
-									
-									if ($x1Rot == $x2Rot) {
-											
-										$y_intery1 = $y1objetRot;
-										$x_intery1 = $x1Rot;
-										
-										$y_intery2 = $y2objetRot;
-										$x_intery2 = $x2Rot;
-										
-										if (($x_intery1 >= $x1objetRot) && ($x_intery1 <= $x2objetRot)) {
-											if(($y_intery1 <= $y_sup) && ($y_intery1 >= $y_inf)) {
-												$intersection = true;
-											}										
-										
-											if (($y_intery2 <= $y_sup) && ($y_intery2 >= $y_inf)) {
-													$intersection = true;
-											}
-										
-											if (($y_intery1 <= $y_inf) && ($y_intery2 >= $y_sup)) {
-													$intersection = true;
-											}
-										}
-										else {
-											//pas dintersection
-										}
-										
-									}
-									else if ($y1Rot == $y2Rot) {
-									
-										$x_interx1 = $x1objetRot; 
-										$y_interx1 = $y1Rot;
-										
-										$x_interx2 = $x2objetRot;
-										$y_interx2 = $y2Rot;
-										
-										if (($y_interx1 >= $y1objetRot) && ($y_interx1 <= $y2objetRot)) {
-											if(($x_interx1 <= $x_sup) && ($x_interx1 >= $x_inf)) {
-												$intersection = true;
-											}
-										
-											if(($x_interx2 <= $x_sup) && ($x_interx2 >= $x_inf)) {
-												$intersection = true;
-											}
-											
-											if(($x_interx1 <= $x_inf) && ($x_interx2 >= $x_sup)) {
-												$intersection = true;
-											}
-										}
-										else {
-											//pas dintersection
-										}
-										
-									}
-									else {
-										
-										$a = ($y2Rot - $y1Rot) / ($x2Rot - $x1Rot);
-										$b = $y1Rot - ($a * $x1Rot);
-									
-										$x_interx1 = $x1objetRot; 
-										$y_interx1 = ($a * $x_interx1) + $b;
-										
-										$y_intery1 = $y1objetRot;
-										$x_intery1 = ($y_intery1 - $b) / $a;
-										
-										$x_interx2 = $x2objetRot;
-										$y_interx2 = ($a * $x_interx2) + $b;
-										
-										$y_intery2 = $y2objetRot;
-										$x_intery2 = ($y_intery2 - $b) / $a;
-										
-									 
-										if (($y_interx1 >= $y1objetRot) && ($y_interx1 <= $y2objetRot)) {
-											if(($x_interx1 <= $x_sup) && ($x_interx1 >= $x_inf) && ($y_interx1 <= $y_sup) && ($y_interx1 >= $y_inf)) {
-												$intersection = true;
-											}
-										}
-										if (($x_intery1 >= $x1objetRot) && ($x_intery1 <= $x2objetRot)) {
-											if(($x_intery1 <= $x_sup) && ($x_intery1 >= $x_inf) && ($y_intery1 <= $y_sup) && ($y_intery1 >= $y_inf)) {
-												$intersection = true;
-											}										
-										}
-										if (($y_interx2 >= $y1objetRot) && ($y_interx2 <= $y2objetRot)) {
-											if(($x_interx2 <= $x_sup) && ($x_interx2 >= $x_inf) && ($y_interx2 <= $y_sup) && ($y_interx2 >= $y_inf)) {
-												$intersection = true;
-											}
-										}
-										if (($x_intery2 >= $x1objetRot) && ($x_intery2 <= $x2objetRot)) {
-											if(($x_intery2 <= $x_sup) && ($x_intery2 >= $x_inf) && ($y_intery2 <= $y_sup) && ($y_intery2 >= $y_inf)) {
-												$intersection = true;
-											}
-										}
-										if (($x_inf >= $x1objetRot) && ($x_inf <= $x2objetRot) && ($x_sup <= $x2objetRot) && ($x_sup >= $x1objetRot) && ($y_inf >= $y1objetRot) && ($y_inf <= $y2objetRot) && ($y_sup >= $y1objetRot) && ($y_sup <= $y2objetRot)) {
-											$intersection = true;
-										}
-
-									}
-									if($intersection)
-										break;
-								}
+							foreach($arrayObjectsATester as $object){
+								$intersection = self::whetherIntersect ($object, $x1, $y1, $x2, $y2);
+								if($intersection)
+									break;
 							}					  	
 							
 						}
