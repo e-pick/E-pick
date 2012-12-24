@@ -912,6 +912,10 @@ class ModelisationController extends BaseController {
 					else{
 
 						$nbsegment 		= count(Segment::selectByRayon(parent::$_pdo,$rayon));	
+						if ($nbsegment == 0) {
+							$nbsegment = 1;
+							// TODO
+						}
 						$largeur_ray	= (float) ($largeur / $nbsegment); 
 					}					
 					 
