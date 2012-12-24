@@ -439,9 +439,9 @@ class ModelisationController extends BaseController {
 				$nbkeys = count($keys);
 				$matrice_f = array();
 				$matrice_path = array();
-				$matrice_floyd = $matrice; //on duplique notre matrice pour floyd
-				$matrice_f_floyd = array(); 
-				$matrice_path_floyd = array();
+				//$matrice_floyd = $matrice; //on duplique notre matrice pour floyd
+				//$matrice_f_floyd = array();
+				//$matrice_path_floyd = array();
 				
 				$txt_temp_exec .= "Calcul de la matrice d'adjacence : " . (time()-$temp) . " secondes \n";
 				$temp = time();
