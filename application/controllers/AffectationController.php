@@ -1269,7 +1269,7 @@ class AffectationController extends BaseController {
 		$multi = true;
 		
 		if ($tempsPrepa > TEMPS_PREPA_MAX) {$multi = false;}
-		if ($multi && $nbArticles > NB_ARTICLES_MAX) {$mutli = false;}
+		if ($multi && $nbArticles > NB_ARTICLES_MAX) {$multi = false;}
 		if ($multi && $nbRefs > NB_REFERENCES_MAX) {$multi = false;}
 	
 		return $multi;
@@ -1325,7 +1325,7 @@ class AffectationController extends BaseController {
 		
 		$multi = true;
 		if ($tempsPrepa > TEMPS_PREPA_MAX) {$multi = false;}
-		if ($multi && $nbArticles > NB_ARTICLES_MAX) {$mutli = false;}
+		if ($multi && $nbArticles > NB_ARTICLES_MAX) {$multi = false;}
 		if ($multi && $nbRefs > NB_REFERENCES_MAX) {$multi = false;}
 	
 		return array($multi,$vide);
