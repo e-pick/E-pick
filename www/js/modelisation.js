@@ -878,7 +878,8 @@ function do_all(){
 	var decalageX = $(this).offset().left
 	if($.browser.mozilla)
 		decalageX += 0.79998779296875;
-      $('#debug').html('top'+ (e.pageY-decalageY) + ' left ' + (e.pageX-decalageX) );
+            $('#debug').html('Haut '+ Math.round(((e.pageY-decalageY)/27)*100)/100  + ' Gauche ' + Math.round(((e.pageX-decalageX)/27)*100)/100 );
+
    }); 
  
  
